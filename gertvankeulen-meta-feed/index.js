@@ -47,28 +47,67 @@ async function processFeed() {
     // Ensure allItems is an array
     let itemsToProcess = Array.isArray(allItems) ? allItems : [allItems];
 
-    // Mark placeholder items based on filename (but process ALL of them so they can be shown in dashboard)
+    // Filter out sold vehicles completely (do not show them on the dashboard or XML feed)
+    itemsToProcess = itemsToProcess.filter(item => {
+      const titleLower = (item['g:title'] || '').toLowerCase();
+      const descLower = (item['g:description'] || '').toLowerCase();
+      
+      const isSold = titleLower.includes('verkocht') || 
+                     descLower.includes('deze auto is verkocht') || 
+                     descLower.includes('verkocht!') ||
+                     descLower.startsWith('verkocht');
+      
+      if (isSold) {
+        console.log(`  Skipping sold vehicle: ${item['g:id']} - ${item['g:title']}`);
+        return false;
+      }
+      return true;
+    });
+
+    // Mark placeholder items based on filename, title, and description (but process ALL of them so they can be shown in dashboard)
     const placeholderIds = new Set();
     itemsToProcess.forEach(item => {
       const id = item['g:id'];
       const imageLink = item['g:image_link'] || '';
       const filename = imageLink.substring(imageLink.lastIndexOf('/') + 1).toLowerCase();
       
-      const isPlaceholder = filename.includes('nieuw-binnen') || 
-                            filename.includes('placeholder') || 
-                            filename.includes('no-image') || 
-                            filename.includes('geen-afbeelding') || 
-                            filename.includes('coming-soon') || 
-                            filename.includes('foto-volgt') || 
-                            filename.includes('volgt-snel') || 
-                            filename.includes('geen-foto') || 
-                            filename.includes('afbeelding-volgt');
+      const titleLower = (item['g:title'] || '').toLowerCase();
+      const descLower = (item['g:description'] || '').toLowerCase();
 
-      if (isPlaceholder) {
+      const isPlaceholderFilename = filename.includes('nieuw-binnen') || 
+                                    filename.includes('placeholder') || 
+                                    filename.includes('no-image') || 
+                                    filename.includes('geen-afbeelding') || 
+                                    filename.includes('coming-soon') || 
+                                    filename.includes('foto-volgt') || 
+                                    filename.includes('volgt-snel') || 
+                                    filename.includes('geen-foto') || 
+                                    filename.includes('afbeelding-volgt');
+
+      const isPlaceholderText = titleLower.includes('binnenkort verwacht') || 
+                                titleLower.includes('verwacht') ||
+                                titleLower.includes('coming soon') ||
+                                titleLower.includes('foto\'s volgen') ||
+                                titleLower.includes('fotos volgen') ||
+                                descLower.includes('binnenkort verwacht') || 
+                                descLower.includes('verwacht') ||
+                                descLower.includes('coming soon') ||
+                                descLower.includes('foto\'s volgen') ||
+                                descLower.includes('fotos volgen') ||
+                                descLower.includes('foto\'s en info volgen') ||
+                                descLower.includes('afbeeldingen volgen') ||
+                                descLower.includes('fotos volgen snel') ||
+                                descLower.includes('foto\'s volgen snel') ||
+                                descLower.includes('volgen spoedig') ||
+                                descLower.includes('volgt spoedig') ||
+                                descLower.includes('volgen snel') ||
+                                descLower.includes('volgt snel');
+
+      if (isPlaceholderFilename || isPlaceholderText) {
         placeholderIds.add(id);
       }
     });
-    console.log(`Detected ${placeholderIds.size} items with filename-based placeholders (total items: ${itemsToProcess.length}).`);
+    console.log(`Detected ${placeholderIds.size} items with placeholders (total items: ${itemsToProcess.length}).`);
 
     const processedItems = await Promise.all(itemsToProcess.map(async (item) => {
       const id = item['g:id'];
