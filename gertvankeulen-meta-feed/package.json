@@ -1,0 +1,16 @@
+{
+  "name": "gertvankeulen-meta-feed",
+  "version": "1.0.0",
+  "description": "Meta feed generator and image optimizer for Autobedrijf Gert van Keulen",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cloudinary": "^1.37.1",
+    "dotenv": "^16.0.3",
+    "fs-extra": "^11.1.1",
+    "xml2js": "^0.6.0"
+  }
+}
