@@ -64,50 +64,7 @@ async function processFeed() {
       return true;
     });
 
-    // Mark placeholder items based on filename, title, and description (but process ALL of them so they can be shown in dashboard)
-    const placeholderIds = new Set();
-    itemsToProcess.forEach(item => {
-      const id = item['g:id'];
-      const imageLink = item['g:image_link'] || '';
-      const filename = imageLink.substring(imageLink.lastIndexOf('/') + 1).toLowerCase();
-      
-      const titleLower = (item['g:title'] || '').toLowerCase();
-      const descLower = (item['g:description'] || '').toLowerCase();
-
-      const isPlaceholderFilename = filename.includes('nieuw-binnen') || 
-                                    filename.includes('placeholder') || 
-                                    filename.includes('no-image') || 
-                                    filename.includes('geen-afbeelding') || 
-                                    filename.includes('coming-soon') || 
-                                    filename.includes('foto-volgt') || 
-                                    filename.includes('volgt-snel') || 
-                                    filename.includes('geen-foto') || 
-                                    filename.includes('afbeelding-volgt');
-
-      const isPlaceholderText = titleLower.includes('binnenkort verwacht') || 
-                                titleLower.includes('verwacht') ||
-                                titleLower.includes('coming soon') ||
-                                titleLower.includes('foto\'s volgen') ||
-                                titleLower.includes('fotos volgen') ||
-                                descLower.includes('binnenkort verwacht') || 
-                                descLower.includes('verwacht') ||
-                                descLower.includes('coming soon') ||
-                                descLower.includes('foto\'s volgen') ||
-                                descLower.includes('fotos volgen') ||
-                                descLower.includes('foto\'s en info volgen') ||
-                                descLower.includes('afbeeldingen volgen') ||
-                                descLower.includes('fotos volgen snel') ||
-                                descLower.includes('foto\'s volgen snel') ||
-                                descLower.includes('volgen spoedig') ||
-                                descLower.includes('volgt spoedig') ||
-                                descLower.includes('volgen snel') ||
-                                descLower.includes('volgt snel');
-
-      if (isPlaceholderFilename || isPlaceholderText) {
-        placeholderIds.add(id);
-      }
-    });
-    console.log(`Detected ${placeholderIds.size} items with placeholders (total items: ${itemsToProcess.length}).`);
+    const placeholderIds = new Set(); // Placeholder checking disabled entirely
 
     const processedItems = await Promise.all(itemsToProcess.map(async (item) => {
       const id = item['g:id'];
@@ -161,53 +118,8 @@ async function processFeed() {
         // Step 1: Upload (or ensure exists)
         const uploadResult = await cloudinary.uploader.upload(originalImage, {
           public_id: cloudinaryPublicId,
-          overwrite: true,
-          phash: true
+          overwrite: true
         });
-
-        // Check if the uploaded image matches a known placeholder by ETag, bytes size, or perceptual hash (pHash) pattern
-        const etag = (uploadResult.etag || '').replace(/"/g, '');
-        const size = uploadResult.bytes || 0;
-        const phash = uploadResult.phash;
-
-        // Known placeholders
-        const knownPlaceholderEtags = [
-          '67839c06072eb1acc5e797db713d4f1d', // TinQ standard low-res
-          '440312b86948ed57e4e72d1c5c7b6c98', // TinQ standard high-res
-          'e7d6e58777ff003439e5ffeb393eb958', // TinQ with "INCL. TREKHAAK" banner
-          '6577d40e4ab43a13ef26f68320887395'  // Showroom "Foto's volgen snel"
-        ];
-        const knownPlaceholderSizes = [
-          559112,
-          2157156,
-          2187780,
-          2611657
-        ];
-        const knownPlaceholderPHashes = [
-          '0d8f17272bea447c', // TinQ standard low-res
-          '9c17f2c72bca443c', // TinQ standard high-res
-          '9c3fb2a72be85414', // TinQ with "INCL. TREKHAAK" banner
-          'fc2f49dbdaa4006a'  // Showroom "Foto's volgen snel"
-        ];
-
-        let matchesPlaceholder = knownPlaceholderEtags.includes(etag) || knownPlaceholderSizes.includes(size);
-        let matchedBy = matchesPlaceholder ? 'ETag/Size' : null;
-
-        if (!matchesPlaceholder && phash) {
-          for (const targetPHash of knownPlaceholderPHashes) {
-            const distance = getHammingDistance(phash, targetPHash);
-            if (distance <= 12) {
-              matchesPlaceholder = true;
-              matchedBy = `pHash (Hamming distance: ${distance} to template ${targetPHash})`;
-              break;
-            }
-          }
-        }
-
-        if (matchesPlaceholder) {
-          placeholderIds.add(id);
-          console.log(`  ⚠ Auto-detected stock placeholder image for vehicle ${id} (Matched by: ${matchedBy}).`);
-        }
 
         // Step 2: Build delivery URL with "Smart Padding" and Text Overlays
         const transformation = [
@@ -316,9 +228,9 @@ async function processFeed() {
       }
     }));
 
-    // Filter out items with placeholder images for the Meta XML feed
-    const filteredItems = processedItems.filter(item => !placeholderIds.has(item['g:id']));
-    console.log(`Meta feed: ${filteredItems.length} items (${processedItems.length - filteredItems.length} placeholders excluded).`);
+    // No filtering of placeholder images (include all items)
+    const filteredItems = processedItems;
+    console.log(`Meta feed: ${filteredItems.length} items (no placeholders excluded).`);
 
     // Generate Meta Feed XML (filtered)
     console.log('Generating Meta Feed XML...');
@@ -350,7 +262,7 @@ async function processFeed() {
       color: item['g:color'],
       year: item['g:year'],
       mileage: item['g:mileage'],
-      isPlaceholder: placeholderIds.has(item['g:id'])
+      isPlaceholder: false
     }));
 
     await fs.ensureDir('../public');

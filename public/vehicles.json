@@ -27,7 +27,7 @@
     "color": "Blauw , Blazer Blue (Pn3jv)",
     "year": "2019",
     "mileage": "72189 km",
-    "isPlaceholder": true
+    "isPlaceholder": false
   },
   {
     "id": "3189947",
@@ -57,7 +57,7 @@
     "color": "Grijs , Solar Silver (Pn4hs)",
     "year": "2021",
     "mileage": "132934 km",
-    "isPlaceholder": true
+    "isPlaceholder": false
   },
   {
     "id": "3194411",
@@ -72,7 +72,7 @@
     "color": "Wit",
     "year": "2021",
     "mileage": "76903 km",
-    "isPlaceholder": true
+    "isPlaceholder": false
   },
   {
     "id": "3195899",
@@ -192,7 +192,7 @@
     "color": "Rood , -",
     "year": "2011",
     "mileage": "144142 km",
-    "isPlaceholder": true
+    "isPlaceholder": false
   },
   {
     "id": "3189937",
@@ -222,7 +222,7 @@
     "color": "Grijs , Gris platinum",
     "year": "2021",
     "mileage": "42324 km",
-    "isPlaceholder": true
+    "isPlaceholder": false
   },
   {
     "id": "3189944",
@@ -372,7 +372,7 @@
     "color": "Blauw , Lapiz blue metallic",
     "year": "2021",
     "mileage": "75453 km",
-    "isPlaceholder": true
+    "isPlaceholder": false
   },
   {
     "id": "3194697",
