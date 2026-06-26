@@ -129,8 +129,8 @@ async function processFeed() {
           // 2. Pad vehicle to top of a square 1080x1080 canvas
           { width: 1080, height: 1080, crop: 'pad', background: 'white', gravity: 'north' },
           
-          // Top left brand logo overlay (uploaded as gertvankeulen_favicon)
-          { overlay: 'gertvankeulen_favicon', gravity: 'north_west', x: 40, y: 40, width: 90, crop: 'scale' }
+          // Top left brand logo overlay (uploaded as gertvankeulen_favicon_v2)
+          { overlay: 'gertvankeulen_favicon_v2', gravity: 'north_west', x: 40, y: 40, width: 90, crop: 'scale' }
         ];
 
         // Main Title (Brand + Model) -> BOLD UPPERCASE, anchored to top of white block (Roboto font matching Meta UI)

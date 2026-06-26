@@ -23,7 +23,7 @@ const LOCAL_FAVICON_PATH = path.join(__dirname, 'transparent_favicon.png');
 async function run() {
   console.log('Uploading brand favicon to Cloudinary...');
   const result = await cloudinary.uploader.upload(LOCAL_FAVICON_PATH, {
-    public_id: 'gertvankeulen_favicon',
+    public_id: 'gertvankeulen_favicon_v2',
     overwrite: true
   });
   console.log(`Success! Favicon uploaded. Public ID: ${result.public_id}, URL: ${result.secure_url}`);
