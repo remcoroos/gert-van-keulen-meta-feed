@@ -396,10 +396,6 @@
                     <div class="stat-label">In Feed</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-value warning" id="placeholder-count">...</div>
-                    <div class="stat-label">Placeholder</div>
-                </div>
-                <div class="stat-item">
                     <div class="stat-value" id="total-count">...</div>
                     <div class="stat-label">Totaal</div>
                 </div>
@@ -421,14 +417,9 @@
         </div>
     </div>
 
-    <!-- Filter Bar -->
-    <div class="filter-bar">
+        <div class="filter-bar">
         <div class="filter-left">
             <span class="filter-label">Voertuigen</span>
-            <div class="toggle-wrapper" onclick="toggleFilter()">
-                <div class="toggle-switch active" id="filter-toggle"></div>
-                <span class="toggle-text">Placeholders verbergen</span>
-            </div>
             <span class="filter-count" id="filter-count"></span>
         </div>
         <input type="text" class="search-input" placeholder="Zoek op merk, model, kleur..." id="search-input" oninput="renderVehicles()">
@@ -444,7 +435,6 @@
         <div class="footer-title">Actieve Optimalisaties Engine</div>
         <ul>
             <li>Verwerking van de volledige voorraad</li>
-            <li>Filteren van auto's met placeholder afbeeldingen</li>
             <li>Dynamische Meta Light Mode UI injectie via Cloudinary</li>
             <li>Intelligente Image Padding (aspect-ratio behoud)</li>
             <li>Geoptimaliseerde typografie & hiërarchie (Roboto font)</li>
@@ -460,14 +450,6 @@
 
 <script>
     let allVehicles = [];
-    let filterPlaceholders = true;
-
-    function toggleFilter() {
-        filterPlaceholders = !filterPlaceholders;
-        const toggle = document.getElementById('filter-toggle');
-        toggle.classList.toggle('active', filterPlaceholders);
-        renderVehicles();
-    }
 
     function formatPrice(priceStr) {
         if (!priceStr) return '€ 0';
@@ -487,7 +469,6 @@
         const searchTerm = document.getElementById('search-input').value.toLowerCase().trim();
 
         let visible = allVehicles.filter(v => {
-            if (filterPlaceholders && v.isPlaceholder) return false;
             if (searchTerm) {
                 const searchable = `${v.brand} ${v.model} ${v.title} ${v.color} ${v.year}`.toLowerCase();
                 return searchable.includes(searchTerm);
@@ -495,10 +476,7 @@
             return true;
         });
 
-        const placeholderTotal = allVehicles.filter(v => v.isPlaceholder).length;
-        const activeTotal = allVehicles.length - placeholderTotal;
-        document.getElementById('active-count').textContent = activeTotal;
-        document.getElementById('placeholder-count').textContent = placeholderTotal;
+        document.getElementById('active-count').textContent = allVehicles.length;
         document.getElementById('total-count').textContent = allVehicles.length;
 
         const countEl = document.getElementById('filter-count');
@@ -510,9 +488,8 @@
         }
 
         grid.innerHTML = visible.map(v => `
-            <div class="vehicle-card ${v.isPlaceholder ? 'is-placeholder' : ''}">
+            <div class="vehicle-card">
                 <div class="vehicle-img-wrap">
-                    ${v.isPlaceholder ? '<div class="placeholder-badge">Placeholder</div>' : ''}
                     <img src="${v.image}" alt="${v.brand} ${v.model}" loading="lazy" onerror="this.style.display='none'">
                 </div>
                 <div class="vehicle-info">
