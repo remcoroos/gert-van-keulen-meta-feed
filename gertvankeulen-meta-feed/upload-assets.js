@@ -17,11 +17,12 @@ if (process.env.CLOUDINARY_URL) {
   process.exit(1);
 }
 
-const FAVICON_URL = 'https://www.gertvankeulen.nl/cms/wp-content/uploads/2021/06/cropped-favicon-192x192.png';
+const path = require('path');
+const LOCAL_FAVICON_PATH = path.join(__dirname, 'transparent_favicon.png');
 
 async function run() {
   console.log('Uploading brand favicon to Cloudinary...');
-  const result = await cloudinary.uploader.upload(FAVICON_URL, {
+  const result = await cloudinary.uploader.upload(LOCAL_FAVICON_PATH, {
     public_id: 'gertvankeulen_favicon',
     overwrite: true
   });
