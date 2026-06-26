@@ -3,271 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gert van Keulen | Feed Monitor</title>
-    <!-- Premium Fonts matching official website branding -->
-    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>InfoTrade | Feed Monitor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-color: #f7f8fa;
-            --card-bg: rgba(255, 255, 255, 0.9);
-            --card-border: rgba(229, 231, 235, 0.5);
+            --bg-color: #fafafa;
+            --card-bg: #ffffff;
             --text-main: #111111;
             --text-muted: #666666;
+            --border-color: #f0f0f0;
+            --accent: #000000;
             --accent-orange: #f39200;
-            --accent-orange-hover: #d57f00;
-            --accent-orange-light: rgba(243, 146, 0, 0.1);
             --placeholder-badge: #ef4444;
-            --success-color: #10b981;
-            --font-headings: 'Alata', sans-serif;
-            --font-body: 'Montserrat', sans-serif;
         }
-
-        * {
-            box-sizing: border-box;
-            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
+        * { box-sizing: border-box; }
         body {
-            font-family: var(--font-body);
+            font-family: 'Inter', sans-serif;
             background-color: var(--bg-color);
             color: var(--text-main);
             margin: 0;
-            padding: 40px 20px;
+            padding: 20px;
             -webkit-font-smoothing: antialiased;
-            background-image: 
-                radial-gradient(at 0% 0%, rgba(243, 146, 0, 0.03) 0px, transparent 50%),
-                radial-gradient(at 100% 100%, rgba(243, 146, 0, 0.03) 0px, transparent 50%);
-            background-attachment: fixed;
         }
-
         .container {
             max-width: 1200px;
             margin: 0 auto;
         }
 
-        /* Glassmorphism Header Card */
+        /* Header Section */
         .monitor-wrapper {
             background: var(--card-bg);
-            backdrop-filter: blur(10px);
-            border: 1px solid var(--card-border);
-            border-radius: 16px;
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
             padding: 32px 40px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
-            margin-bottom: 30px;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.02);
+            margin-bottom: 24px;
         }
-
         .header-row {
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
             flex-wrap: wrap;
-            gap: 24px;
+            gap: 20px;
         }
-
-        .header-left { 
-            flex: 1; 
-            min-width: 300px; 
-        }
-
+        .header-left { flex: 1; min-width: 250px; }
         .eyebrow {
-            font-family: var(--font-body);
             font-size: 11px;
             text-transform: uppercase;
-            letter-spacing: 2px;
-            color: var(--accent-orange);
-            margin-bottom: 8px;
-            font-weight: 700;
+            letter-spacing: 1px;
+            color: var(--text-muted);
+            margin-bottom: 6px;
+            font-weight: 600;
         }
-
         h1 {
-            font-family: var(--font-headings);
             margin: 0;
-            font-size: 28px;
-            font-weight: 700;
-            letter-spacing: 0.5px;
-            color: var(--text-main);
+            font-size: 22px;
+            font-weight: 600;
+            letter-spacing: -0.5px;
         }
-
         .status-indicator {
             display: inline-flex;
             align-items: center;
-            margin-top: 12px;
+            margin-top: 10px;
             font-size: 13px;
-            font-weight: 600;
+            font-weight: 500;
             color: var(--text-muted);
-            background: #ededf0;
-            padding: 6px 12px;
-            border-radius: 20px;
         }
-
         .dot {
-            width: 8px;
-            height: 8px;
-            background: #a1a1aa;
+            width: 6px;
+            height: 6px;
+            background: #cdcdcd;
             border-radius: 50%;
             margin-right: 8px;
         }
-
         .dot.active {
-            background: var(--success-color);
-            box-shadow: 0 0 8px var(--success-color);
+            background: #10b981;
+            box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.2);
         }
-
         .dot.error {
-            background: var(--placeholder-badge);
-            box-shadow: 0 0 8px var(--placeholder-badge);
+            background: #ef4444;
+            box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.2);
         }
 
         /* Stats Row */
         .stats-row {
             display: flex;
-            gap: 16px;
+            gap: 24px;
             flex-wrap: wrap;
             align-items: center;
         }
-
         .stat-item {
             text-align: center;
-            padding: 16px 24px;
-            background: rgba(247, 248, 250, 0.8);
-            border: 1px solid var(--card-border);
-            border-radius: 12px;
-            min-width: 130px;
+            padding: 12px 20px;
+            background: var(--bg-color);
+            border-radius: 8px;
+            min-width: 120px;
         }
-
-        .stat-item:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
-            border-color: rgba(243, 146, 0, 0.2);
-        }
-
         .stat-value {
-            font-size: 26px;
-            font-weight: 800;
+            font-size: 24px;
+            font-weight: 700;
             color: var(--text-main);
         }
-
         .stat-value.accent { color: var(--accent-orange); }
         .stat-value.warning { color: var(--placeholder-badge); }
-
         .stat-label {
             font-size: 11px;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 0.5px;
             color: var(--text-muted);
-            margin-top: 6px;
-            font-weight: 700;
+            margin-top: 4px;
         }
 
-        /* Actions Section */
+        /* Actions Row */
         .actions-row {
             display: flex;
-            gap: 12px;
+            gap: 10px;
             flex-wrap: wrap;
-            margin-top: 24px;
-            padding-top: 24px;
-            border-top: 1px solid rgba(229, 231, 235, 0.8);
+            margin-top: 20px;
             align-items: center;
         }
-
         .url-box {
             display: flex;
             gap: 8px;
             flex: 1;
-            min-width: 320px;
+            min-width: 250px;
         }
-
         .url-box input {
             flex-grow: 1;
-            padding: 12px 16px;
-            border: 1px solid rgba(229, 231, 235, 1);
-            border-radius: 8px;
-            background: #fdfdfd;
+            padding: 10px 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            background: var(--bg-color);
             color: var(--text-muted);
             font-family: inherit;
             font-size: 12px;
             outline: none;
         }
-
-        .url-box input:focus {
-            border-color: var(--accent-orange);
-            box-shadow: 0 0 0 2px var(--accent-orange-light);
-        }
-
         .button {
-            display: inline-flex;
+            display: flex;
             align-items: center;
             justify-content: center;
-            background: var(--text-main);
+            background: var(--accent);
             color: #fff;
             border: none;
-            padding: 12px 20px;
-            border-radius: 8px;
+            padding: 10px 16px;
+            border-radius: 6px;
             font-size: 13px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
+            font-weight: 500;
             text-decoration: none;
             cursor: pointer;
-            outline: none;
+            transition: opacity 0.2s;
+            white-space: nowrap;
         }
-
-        .button:hover {
-            opacity: 0.9;
-            transform: translateY(-1px);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-        }
-
-        .button:active {
-            transform: translateY(0);
-        }
-
-        .btn-primary {
-            background: var(--accent-orange);
-        }
-
-        .btn-primary:hover {
-            background: var(--accent-orange-hover);
-            box-shadow: 0 4px 12px rgba(243, 146, 0, 0.3);
-        }
-
+        .button:hover { opacity: 0.85; }
         .btn-secondary {
             background: transparent;
-            color: var(--text-main);
-            border: 1px solid rgba(200, 200, 200, 0.8);
+            color: var(--accent);
+            border: 1px solid #e5e5e5;
         }
+        .btn-secondary:hover { background: #f4f4f4; opacity: 1; }
 
-        .btn-secondary:hover {
-            background: rgba(0, 0, 0, 0.03);
-            border-color: var(--text-main);
-        }
-
-        .update-msg-box {
-            font-size: 12px;
-            margin-top: 10px;
-            color: var(--text-muted);
-            background: var(--accent-orange-light);
-            border-left: 3px solid var(--accent-orange);
-            padding: 8px 16px;
-            border-radius: 0 8px 8px 0;
-            display: none;
-            animation: fadeIn 0.3s ease-out;
-        }
-
-        .sync-info {
-            font-size: 12px;
-            color: var(--text-muted);
-            margin-top: 12px;
-        }
-
-        .sync-info strong {
-            color: var(--text-main);
-        }
-
-        /* Filter Controls */
+        /* Filter Bar */
         .filter-bar {
             background: var(--card-bg);
-            border: 1px solid var(--card-border);
+            border: 1px solid var(--border-color);
             border-radius: 12px;
             padding: 16px 24px;
             margin-bottom: 24px;
@@ -276,22 +175,17 @@
             justify-content: space-between;
             flex-wrap: wrap;
             gap: 16px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.02);
         }
-
         .filter-left {
             display: flex;
             align-items: center;
-            gap: 20px;
+            gap: 16px;
             flex-wrap: wrap;
         }
-
         .filter-label {
-            font-family: var(--font-headings);
-            font-size: 15px;
-            font-weight: 700;
-            color: var(--text-main);
-            letter-spacing: 0.5px;
+            font-size: 14px;
+            font-weight: 600;
         }
 
         /* Toggle Switch */
@@ -302,7 +196,6 @@
             cursor: pointer;
             user-select: none;
         }
-
         .toggle-switch {
             position: relative;
             width: 44px;
@@ -311,11 +204,9 @@
             border-radius: 12px;
             transition: background 0.25s ease;
         }
-
         .toggle-switch.active {
-            background: var(--success-color);
+            background: #10b981;
         }
-
         .toggle-switch::after {
             content: '';
             position: absolute;
@@ -328,14 +219,11 @@
             box-shadow: 0 1px 3px rgba(0,0,0,0.15);
             transition: transform 0.25s ease;
         }
-
         .toggle-switch.active::after {
             transform: translateX(20px);
         }
-
         .toggle-text {
             font-size: 13px;
-            font-weight: 500;
             color: var(--text-muted);
         }
 
@@ -343,230 +231,148 @@
             font-size: 13px;
             color: var(--text-muted);
         }
+        .filter-count strong { color: var(--text-main); }
 
-        .filter-count strong {
-            color: var(--text-main);
-        }
-
-        /* Search input */
+        /* Search */
         .search-input {
-            padding: 10px 16px;
-            border: 1px solid rgba(229, 231, 235, 1);
-            border-radius: 8px;
+            padding: 8px 14px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
             font-family: inherit;
             font-size: 13px;
             outline: none;
-            width: 260px;
-            background: #fdfdfd;
+            width: 220px;
+            background: var(--bg-color);
         }
-
         .search-input:focus {
-            border-color: var(--accent-orange);
-            box-shadow: 0 0 0 2px var(--accent-orange-light);
+            border-color: #bbb;
         }
 
-        /* Vehicle Grid Layout */
+        /* Vehicle Grid */
         .vehicle-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(285px, 1fr));
-            gap: 20px;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 16px;
         }
-
-        /* Premium Vehicle Card design */
         .vehicle-card {
             background: var(--card-bg);
-            border: 1px solid var(--card-border);
-            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
             overflow: hidden;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.03);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
             position: relative;
-            display: flex;
-            flex-direction: column;
         }
-
         .vehicle-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
-            border-color: rgba(243, 146, 0, 0.15);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
         }
-
         .vehicle-card.is-placeholder {
-            opacity: 0.6;
+            opacity: 0.55;
             border-color: var(--placeholder-badge);
         }
-
+        .vehicle-card.is-placeholder .vehicle-img-wrap {
+            position: relative;
+        }
         .placeholder-badge {
             position: absolute;
-            top: 12px;
-            right: 12px;
+            top: 10px;
+            right: 10px;
             background: var(--placeholder-badge);
             color: white;
             font-size: 10px;
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 0.5px;
-            padding: 4px 10px;
+            padding: 4px 8px;
             border-radius: 4px;
             z-index: 2;
-            box-shadow: 0 2px 4px rgba(239, 68, 68, 0.2);
         }
-
         .vehicle-img-wrap {
             width: 100%;
             aspect-ratio: 1;
-            background: #ffffff;
+            background: #f5f5f5;
             overflow: hidden;
-            position: relative;
-            border-bottom: 1px solid rgba(229, 231, 235, 0.5);
         }
-
         .vehicle-img-wrap img {
             width: 100%;
             height: 100%;
             object-fit: cover;
             display: block;
         }
-
         .vehicle-info {
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            flex-grow: 1;
+            padding: 14px 16px;
         }
-
         .vehicle-brand-model {
-            font-family: var(--font-headings);
-            font-size: 16px;
-            font-weight: 700;
-            margin-bottom: 6px;
-            letter-spacing: 0.3px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 4px;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
-            color: var(--text-main);
         }
-
         .vehicle-details {
             font-size: 12px;
             color: var(--text-muted);
-            margin-bottom: 14px;
-            line-height: 1.5;
-            font-weight: 500;
+            margin-bottom: 8px;
         }
-
         .vehicle-bottom {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-top: auto;
-            padding-top: 14px;
-            border-top: 1px solid rgba(229, 231, 235, 0.4);
         }
-
         .vehicle-price {
-            font-size: 18px;
-            font-weight: 800;
+            font-size: 16px;
+            font-weight: 700;
             color: var(--accent-orange);
-            font-family: var(--font-headings);
         }
-
         .vehicle-link {
             font-size: 11px;
-            font-weight: 700;
-            color: var(--text-main);
+            color: var(--text-muted);
             text-decoration: none;
-            padding: 6px 12px;
-            border: 1px solid var(--text-main);
-            border-radius: 6px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            background: transparent;
+            padding: 4px 8px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            transition: background 0.15s;
         }
-
-        .vehicle-link:hover {
-            background: var(--text-main);
-            color: #ffffff;
-        }
+        .vehicle-link:hover { background: var(--bg-color); }
 
         /* Empty State */
         .empty-state {
-            grid-column: 1 / -1;
             text-align: center;
-            padding: 80px 20px;
+            padding: 60px 20px;
             color: var(--text-muted);
             font-size: 14px;
-            background: var(--card-bg);
-            border-radius: 12px;
-            border: 1px dashed rgba(200, 200, 200, 0.5);
         }
 
-        /* Optimization engine details footer */
+        /* Footer */
         .footer-section {
             background: var(--card-bg);
-            border: 1px solid var(--card-border);
-            border-radius: 16px;
-            padding: 32px 40px;
-            margin-top: 40px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 24px 32px;
+            margin-top: 24px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.02);
         }
-
         .footer-title {
-            font-family: var(--font-headings);
-            font-weight: 700;
-            margin-bottom: 16px;
-            font-size: 16px;
-            letter-spacing: 0.5px;
-            color: var(--text-main);
-            display: flex;
-            align-items: center;
-            gap: 8px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            font-size: 14px;
         }
-
-        .footer-title::before {
-            content: '';
-            display: inline-block;
-            width: 4px;
-            height: 16px;
-            background: var(--accent-orange);
-            border-radius: 2px;
-        }
-
         .footer-section ul {
-            padding-left: 0;
+            padding-left: 16px;
             margin: 0;
-            list-style-type: none;
-            columns: 2;
-            gap: 40px;
-        }
-
-        .footer-section li {
+            line-height: 1.9;
             font-size: 12px;
             color: var(--text-muted);
-            margin-bottom: 12px;
-            line-height: 1.6;
-            display: flex;
-            align-items: flex-start;
-            gap: 8px;
-            font-weight: 500;
+            columns: 2;
         }
 
-        .footer-section li::before {
-            content: '✓';
-            color: var(--accent-orange);
-            font-weight: 700;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(-5px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        @media (max-width: 768px) {
-            body { padding: 20px 10px; }
-            .monitor-wrapper { padding: 24px 20px; }
-            .vehicle-grid { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+        @media (max-width: 640px) {
+            body { padding: 12px; }
+            .monitor-wrapper { padding: 20px; }
+            .vehicle-grid { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
             .footer-section ul { columns: 1; }
-            .url-box { min-width: 100%; }
         }
     </style>
 </head>
@@ -581,7 +387,7 @@
                 <h1>Feed Monitor: Gert van Keulen</h1>
                 <div class="status-indicator">
                     <div class="dot" id="status-dot"></div>
-                    <span id="status-text">Laden...</span>
+                    <span id="status-text">Verbinden met server...</span>
                 </div>
             </div>
             <div class="stats-row">
@@ -599,29 +405,26 @@
                 </div>
             </div>
         </div>
-
         <div class="actions-row">
             <div class="url-box">
                 <input type="text" id="feed-url" value="..." readonly>
-                <button class="button btn-secondary" onclick="copyUrl()" id="copy-btn">Kopieer Link</button>
+                <button class="button btn-secondary" onclick="copyUrl()" id="copy-btn">Kopieer</button>
             </div>
-            <a href="meta-product-feed.xml" class="button" target="_blank">Open XML feed</a>
-            <button class="button btn-primary" onclick="forceUpdate()" id="update-btn">🔄 Forceer Update</button>
+            <a href="meta-product-feed.xml" class="button" target="_blank">Open XML</a>
+            <button class="button btn-secondary" onclick="forceUpdate()" id="update-btn">🔄 Forceer Update</button>
         </div>
-        
-        <div class="update-msg-box" id="update-msg">
-            Update-trigger verzonden! Het starten van de GitHub Actions workflow duurt een paar seconden. Het duurt ongeveer 2 minuten voordat de wijzigingen op Vercel live staan.
-        </div>
-
-        <div class="sync-info">
-            Laatste synchronisatie: <strong id="last-sync">...</strong>
+        <p id="update-msg" style="font-size: 11px; margin-top: 8px; text-align: right; color: #999; display: none;">
+            Update gestart! Het duurt ca. 2 min. voor Vercel de push verwerkt.
+        </p>
+        <div style="font-size: 12px; color: var(--text-muted); margin-top: 8px;">
+            Laatste sync: <strong id="last-sync">...</strong>
         </div>
     </div>
 
-    <!-- Filter & Search Bar -->
+    <!-- Filter Bar -->
     <div class="filter-bar">
         <div class="filter-left">
-            <span class="filter-label">Voertuigoverzicht</span>
+            <span class="filter-label">Voertuigen</span>
             <div class="toggle-wrapper" onclick="toggleFilter()">
                 <div class="toggle-switch active" id="filter-toggle"></div>
                 <span class="toggle-text">Placeholders verbergen</span>
@@ -633,25 +436,24 @@
 
     <!-- Vehicle Grid -->
     <div class="vehicle-grid" id="vehicle-grid">
-        <div class="empty-state">Voertuigen aan het inladen...</div>
+        <div class="empty-state">Voertuigen laden...</div>
     </div>
 
-    <!-- Optimization Specifications Footer -->
+    <!-- Footer -->
     <div class="footer-section">
         <div class="footer-title">Actieve Optimalisaties Engine</div>
         <ul>
-            <li>Volledige feed verwerking met automatische sync</li>
-            <li>Filteren en isoleren van stock placeholder afbeeldingen</li>
-            <li>Cloudinary-gestuurde dynamic image composition</li>
-            <li>Behoud van originele aspect-ratio via slimme padding</li>
-            <li>Favicon/Logo watermerk branding (top-left)</li>
-            <li>Typografie met sub-options bullet spacing</li>
-            <li>Prijsaanduiding in Gert van Keulen huisstijl oranje (#f39200)</li>
-            <li>Dynamische kilometrage en bouwjaar overlays</li>
-            <li>Smart Title Truncation (voorkomt overlappende teksten)</li>
-            <li>Crawler-proof .jpg formaat conversie & caching</li>
-            <li>Serverless webhook trigger API integratie</li>
-            <li>Volautomatische synchronisatie via GitHub Actions</li>
+            <li>Verwerking van de volledige voorraad</li>
+            <li>Filteren van auto's met placeholder afbeeldingen</li>
+            <li>Dynamische Meta Light Mode UI injectie via Cloudinary</li>
+            <li>Intelligente Image Padding (aspect-ratio behoud)</li>
+            <li>Geoptimaliseerde typografie & hiërarchie (Roboto font)</li>
+            <li>Crawler-support: Automatische .jpg extensie detectie</li>
+            <li>Automatische numerieke formattering (KM/Prijs)</li>
+            <li>Smart Title Truncation (voorkomt overlap/fouten)</li>
+            <li>Non-stretch scaling (c_limit logic voor desktop)</li>
+            <li>Dagelijkse automatische synchronisatie (GitHub Actions)</li>
+            <li>Brondata: Gert van Keulen Vehicle Feed Bridge</li>
         </ul>
     </div>
 </div>
@@ -695,7 +497,6 @@
 
         const placeholderTotal = allVehicles.filter(v => v.isPlaceholder).length;
         const activeTotal = allVehicles.length - placeholderTotal;
-        
         document.getElementById('active-count').textContent = activeTotal;
         document.getElementById('placeholder-count').textContent = placeholderTotal;
         document.getElementById('total-count').textContent = allVehicles.length;
@@ -704,7 +505,7 @@
         countEl.innerHTML = `<strong>${visible.length}</strong> van ${allVehicles.length} zichtbaar`;
 
         if (visible.length === 0) {
-            grid.innerHTML = '<div class="empty-state">Geen voertuigen gevonden die voldoen aan de zoekcriteria.</div>';
+            grid.innerHTML = '<div class="empty-state">Geen voertuigen gevonden.</div>';
             return;
         }
 
@@ -712,7 +513,7 @@
             <div class="vehicle-card ${v.isPlaceholder ? 'is-placeholder' : ''}">
                 <div class="vehicle-img-wrap">
                     ${v.isPlaceholder ? '<div class="placeholder-badge">Placeholder</div>' : ''}
-                    <img src="${v.image}" alt="${v.brand} ${v.model}" loading="lazy" onerror="this.src='https://res.cloudinary.com/dbcf66fsf/image/upload/v1782473482/gertvankeulen_favicon.png'; this.style.objectFit='contain';">
+                    <img src="${v.image}" alt="${v.brand} ${v.model}" loading="lazy" onerror="this.style.display='none'">
                 </div>
                 <div class="vehicle-info">
                     <div class="vehicle-brand-model">${v.brand} ${v.model}</div>
@@ -721,7 +522,7 @@
                     </div>
                     <div class="vehicle-bottom">
                         <span class="vehicle-price">${formatPrice(v.price)}</span>
-                        <a href="${v.link}" target="_blank" class="vehicle-link">Bekijk</a>
+                        <a href="${v.link}" target="_blank" class="vehicle-link">Bekijk →</a>
                     </div>
                 </div>
             </div>
@@ -732,43 +533,30 @@
         const input = document.getElementById('feed-url');
         input.select();
         document.execCommand('copy');
-        
         const btn = document.getElementById('copy-btn');
         const oldText = btn.textContent;
         btn.textContent = 'Gekopieerd!';
-        btn.style.background = 'var(--success-color)';
-        btn.style.borderColor = 'var(--success-color)';
-        btn.style.color = '#fff';
-        
-        setTimeout(() => { 
-            btn.textContent = oldText; 
-            btn.style.background = 'transparent'; 
-            btn.style.borderColor = 'var(--text-main)';
-            btn.style.color = 'var(--text-main)';
-        }, 2000);
+        btn.style.background = '#e5e5e5';
+        setTimeout(() => { btn.textContent = oldText; btn.style.background = 'transparent'; }, 2000);
     }
 
     async function forceUpdate() {
         const btn = document.getElementById('update-btn');
         const msg = document.getElementById('update-msg');
         btn.disabled = true;
-        btn.textContent = 'Bezig...';
-        
+        btn.textContent = 'Bezig met activeren...';
         try {
             const res = await fetch('/api/trigger-workflow', { method: 'POST' });
             const data = await res.json();
             if (res.ok) {
                 btn.textContent = '✅ Sync Gestart';
                 msg.style.display = 'block';
-                setTimeout(() => { 
-                    btn.disabled = false; 
-                    btn.textContent = '🔄 Forceer Update'; 
-                }, 5000);
+                setTimeout(() => { btn.disabled = false; btn.textContent = '🔄 Forceer Update'; }, 5000);
             } else {
                 throw new Error(data.error || 'Server error');
             }
         } catch (e) {
-            alert('Fout bij het starten van de update: ' + e.message + '\n\nZorg ervoor dat de Vercel omgevingsvariabele GH_TOKEN correct is ingesteld.');
+            alert('Fout bij starten update: ' + e.message);
             btn.disabled = false;
             btn.textContent = '🔄 Forceer Update';
         }
@@ -811,7 +599,7 @@
                 allVehicles = await jsonRes.json();
                 renderVehicles();
             } else {
-                // Fallback: parse xml directly
+                // Fallback: parse XML feed
                 const xmlRes = await fetch('meta-product-feed.xml' + bust);
                 if (xmlRes.ok) {
                     const xmlText = await xmlRes.text();
@@ -837,9 +625,7 @@
             }
         } catch (e) {
             console.error(e);
-            document.getElementById('status-text').textContent = 'Systeem offline of data niet gevonden';
-            const dot = document.getElementById('status-dot');
-            dot.className = 'dot error';
+            document.getElementById('status-text').textContent = 'Systeem gedeeltelijk offline';
         }
     }
 
