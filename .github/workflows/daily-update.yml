@@ -45,3 +45,12 @@ jobs:
       - name: Trigger Vercel Deploy
         if: success()
         run: curl -X POST ${{ secrets.VERCEL_DEPLOY_HOOK }}
+              - name: Notify on Failure
+        if: failure()
+        run: |
+          if [ -z "${{ secrets.VERCEL_NOTIFY_URL }}" ]; then
+            echo "Warning: VERCEL_NOTIFY_URL is not configured, skipping failure notification."
+            exit 0
+          fi
+          echo "Sending failure notification to Vercel API..."
+          curl -s -X POST "${{ secrets.VERCEL_NOTIFY_URL }}" || echo "Failed to reach notification endpoint"
