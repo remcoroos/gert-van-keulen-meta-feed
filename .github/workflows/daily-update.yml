@@ -45,7 +45,7 @@ jobs:
       - name: Trigger Vercel Deploy
         if: success()
         run: curl -X POST ${{ secrets.VERCEL_DEPLOY_HOOK }}
-              - name: Notify on Failure
+       - name: Notify on Failure
         if: failure()
         run: |
           if [ -z "${{ secrets.VERCEL_NOTIFY_URL }}" ]; then
