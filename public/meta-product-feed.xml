@@ -5,17 +5,33 @@
     <description>Geoptimaliseerde feed voor Autobedrijf Gert van Keulen (Facebook/Instagram Ads)</description>
     <link>https://www.gertvankeulen.nl</link>
     <item>
+      <g:id>3201762</g:id>
+      <g:title>Audi A1 Sportback 1.0 TFSI S-LINE Sport 5-Deurs</g:title>
+      <g:description>121.625 km, 2018</g:description>
+      <link>https://www.gertvankeulen.nl/voorraad-occasions/audi/a1/audi-a1-sportback-1-0-tfsi-s-line-sport-5-deursnavi2-tonenl-auto/3201762/?store=12823721</link>
+      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/audi/a1/audi-a1-sportback-1-0-tfsi-s-line-sport-5-deursnavi2-tonenl-auto/3201762/?store=12823721</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/c_limit,h_800,w_1080/b_white,c_pad,g_north,h_1080,w_1080/c_scale,g_north_west,l_gertvankeulen_favicon_v2,w_90,x_40,y_40/c_fit,co_rgb:1a1a1a,g_north_west,l_text:Roboto_46_bold:AUDI%20A1,w_960,x_60,y_824/c_fit,co_rgb:555555,g_north_west,l_text:Roboto_39:Sportback%201.0%20TFSI%20S-LINE%20Sport%205-Deurs,w_960,x_60,y_888/c_fit,co_rgb:555555,g_south_west,l_text:Roboto_41_bold:121.625%20km%252C%202018,w_500,x_60,y_45/co_rgb:f39200,g_south_east,l_text:Roboto_56_bold:%E2%82%AC%2012.700%252C-,x_60,y_45/q_80/v1783819146/gertvankeulen_meta_feed/3201762.jpg</g:image_link>
+      <g:brand>Audi</g:brand>
+      <g:model>A1</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>12700.00 EUR</g:price>
+      <g:color>Rood , Misanorood (p); dak grijs</g:color>
+      <g:year>2018</g:year>
+      <g:mileage>121625 km</g:mileage>
+    </item>
+    <item>
       <g:id>3200560</g:id>
       <g:title>Audi E-Tron 55 Quattro Edition 95 Kwh SOH 92%</g:title>
-      <g:description>63.450 km, 2022</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/audi/e-tron/audi-e-tron-55-quattro-edition-95-kwh-408pk-soh-92-1e-eig-nl-autocarplay/3200560/?store=12823721</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/audi/e-tron/audi-e-tron-55-quattro-edition-95-kwh-408pk-soh-92-1e-eig-nl-autocarplay/3200560/?store=12823721</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/c_limit,h_800,w_1080/b_white,c_pad,g_north,h_1080,w_1080/c_scale,g_north_west,l_gertvankeulen_favicon_v2,w_90,x_40,y_40/c_fit,co_rgb:1a1a1a,g_north_west,l_text:Roboto_46_bold:AUDI%20E-TRON,w_960,x_60,y_824/c_fit,co_rgb:555555,g_north_west,l_text:Roboto_39:55%20Quattro%20Edition%2095%20Kwh%20SOH%2092%25,w_960,x_60,y_888/c_fit,co_rgb:555555,g_south_west,l_text:Roboto_41_bold:63.450%20km%252C%202022,w_500,x_60,y_45/co_rgb:f39200,g_south_east,l_text:Roboto_56_bold:%E2%82%AC%2034.850%252C-,x_60,y_45/q_80/v1783560377/gertvankeulen_meta_feed/3200560.jpg</g:image_link>
+      <g:description>63450 km, 2022</g:description>
+      <link>https://www.gertvankeulen.nl/voorraad-occasions/audi/e-tron/audi-e-tron-55-quattro-edition-95-kwh-408pk-soh-92-1e-eig-nl-autocarplay/3200560/?store={store_code}</link>
+      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/audi/e-tron/audi-e-tron-55-quattro-edition-95-kwh-408pk-soh-92-1e-eig-nl-autocarplay/3200560/?store={store_code}</g:link>
+      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/178343133026001.JPG</g:image_link>
       <g:brand>Audi</g:brand>
       <g:model>E-Tron</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>34850.00 EUR</g:price>
+      <g:price>34850 EUR</g:price>
       <g:color>Zwart , Briljantzwart</g:color>
       <g:year>2022</g:year>
       <g:mileage>63450 km</g:mileage>
@@ -39,15 +55,15 @@
     <item>
       <g:id>3190217</g:id>
       <g:title>Ford Fiesta 1.0 Ecoboost 125PK MHEV 5-Deurs Titanium Carplay</g:title>
-      <g:description>98.708 km, 2022</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/ford/fiesta/ford-fiesta-1-0-ecoboost-125pk-mhev-5-deurs-titanium-carplaylednl-auto1e-eig/3190217/?store=12823721</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/ford/fiesta/ford-fiesta-1-0-ecoboost-125pk-mhev-5-deurs-titanium-carplaylednl-auto1e-eig/3190217/?store=12823721</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/c_limit,h_800,w_1080/b_white,c_pad,g_north,h_1080,w_1080/c_scale,g_north_west,l_gertvankeulen_favicon_v2,w_90,x_40,y_40/c_fit,co_rgb:1a1a1a,g_north_west,l_text:Roboto_46_bold:FORD%20FIESTA,w_960,x_60,y_824/c_fit,co_rgb:555555,g_north_west,l_text:Roboto_39:1.0%20Ecoboost%20125PK%20MHEV%205-Deurs%20Titanium%20Carplay,w_960,x_60,y_888/c_fit,co_rgb:555555,g_south_west,l_text:Roboto_41_bold:98.708%20km%252C%202022,w_500,x_60,y_45/co_rgb:f39200,g_south_east,l_text:Roboto_56_bold:%E2%82%AC%2012.850%252C-,x_60,y_45/q_80/v1782473578/gertvankeulen_meta_feed/3190217.jpg</g:image_link>
+      <g:description>98708 km, 2022</g:description>
+      <link>https://www.gertvankeulen.nl/voorraad-occasions/ford/fiesta/ford-fiesta-1-0-ecoboost-125pk-mhev-5-deurs-titanium-carplaylednl-auto1e-eig/3190217/?store={store_code}</link>
+      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/ford/fiesta/ford-fiesta-1-0-ecoboost-125pk-mhev-5-deurs-titanium-carplaylednl-auto1e-eig/3190217/?store={store_code}</g:link>
+      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/178305202945801.JPG</g:image_link>
       <g:brand>Ford</g:brand>
       <g:model>Fiesta</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>12850.00 EUR</g:price>
+      <g:price>12850 EUR</g:price>
       <g:color>Zwart , Agate Black Metallic (Pn4gm)</g:color>
       <g:year>2022</g:year>
       <g:mileage>98708 km</g:mileage>
@@ -151,15 +167,15 @@
     <item>
       <g:id>3200559</g:id>
       <g:title>Hyundai Kona 1.0 T-GDI Comfort Carplay</g:title>
-      <g:description>45.224 km, 2020</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/hyundai/kona/hyundai-kona-1-0-t-gdi-comfort-carplaycamera1e-eig-nl-auto/3200559/?store=12823721</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/hyundai/kona/hyundai-kona-1-0-t-gdi-comfort-carplaycamera1e-eig-nl-auto/3200559/?store=12823721</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/c_limit,h_800,w_1080/b_white,c_pad,g_north,h_1080,w_1080/c_scale,g_north_west,l_gertvankeulen_favicon_v2,w_90,x_40,y_40/c_fit,co_rgb:1a1a1a,g_north_west,l_text:Roboto_46_bold:HYUNDAI%20KONA,w_960,x_60,y_824/c_fit,co_rgb:555555,g_north_west,l_text:Roboto_39:1.0%20T-GDI%20Comfort%20Carplay,w_960,x_60,y_888/c_fit,co_rgb:555555,g_south_west,l_text:Roboto_41_bold:45.224%20km%252C%202020,w_500,x_60,y_45/co_rgb:f39200,g_south_east,l_text:Roboto_56_bold:%E2%82%AC%2018.850%252C-,x_60,y_45/q_80/v1783064517/gertvankeulen_meta_feed/3200559.jpg</g:image_link>
+      <g:description>45224 km, 2020</g:description>
+      <link>https://www.gertvankeulen.nl/voorraad-occasions/hyundai/kona/hyundai-kona-1-0-t-gdi-comfort-carplaycamera1e-eig-nl-auto/3200559/?store={store_code}</link>
+      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/hyundai/kona/hyundai-kona-1-0-t-gdi-comfort-carplaycamera1e-eig-nl-auto/3200559/?store={store_code}</g:link>
+      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/178341753353801.JPG</g:image_link>
       <g:brand>Hyundai</g:brand>
       <g:model>Kona</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>18850.00 EUR</g:price>
+      <g:price>18850 EUR</g:price>
       <g:color>Grijs , Galactic Gray Metallic (R3G)</g:color>
       <g:year>2020</g:year>
       <g:mileage>45224 km</g:mileage>
@@ -199,15 +215,15 @@
     <item>
       <g:id>3194112</g:id>
       <g:title>Kia Pro Ceed 1.0 T-Gdi GT-LINE Panodak</g:title>
-      <g:description>52.410 km, 2022</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/kia/pro-ceed/kia-pro-ceed-1-0-t-gdi-gt-line-panodakledcarplaycameranl-auto1e-eig/3194112/?store=12823721</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/kia/pro-ceed/kia-pro-ceed-1-0-t-gdi-gt-line-panodakledcarplaycameranl-auto1e-eig/3194112/?store=12823721</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/c_limit,h_800,w_1080/b_white,c_pad,g_north,h_1080,w_1080/c_scale,g_north_west,l_gertvankeulen_favicon_v2,w_90,x_40,y_40/c_fit,co_rgb:1a1a1a,g_north_west,l_text:Roboto_46_bold:KIA%20PRO%20CEED,w_960,x_60,y_824/c_fit,co_rgb:555555,g_north_west,l_text:Roboto_39:1.0%20T-Gdi%20GT-LINE%20Panodak,w_960,x_60,y_888/c_fit,co_rgb:555555,g_south_west,l_text:Roboto_41_bold:52.410%20km%252C%202022,w_500,x_60,y_45/co_rgb:f39200,g_south_east,l_text:Roboto_56_bold:%E2%82%AC%2022.400%252C-,x_60,y_45/q_80/v1782473578/gertvankeulen_meta_feed/3194112.jpg</g:image_link>
+      <g:description>52410 km, 2022</g:description>
+      <link>https://www.gertvankeulen.nl/voorraad-occasions/kia/pro-ceed/kia-pro-ceed-1-0-t-gdi-gt-line-panodakledcarplaycameranl-auto1e-eig/3194112/?store={store_code}</link>
+      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/kia/pro-ceed/kia-pro-ceed-1-0-t-gdi-gt-line-panodakledcarplaycameranl-auto1e-eig/3194112/?store={store_code}</g:link>
+      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/178341727860101.JPG</g:image_link>
       <g:brand>Kia</g:brand>
       <g:model>Pro Ceed</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>22400.00 EUR</g:price>
+      <g:price>22400 EUR</g:price>
       <g:color>Wit , Hw2</g:color>
       <g:year>2022</g:year>
       <g:mileage>52410 km</g:mileage>
@@ -263,15 +279,15 @@
     <item>
       <g:id>3201907</g:id>
       <g:title>Lynk En Co 01 1.5 PHEV 261PK Black-Edition PANO</g:title>
-      <g:description>45822 km, 2022</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/lynk-en-co/01/lynk-en-co-01-1-5-phev-261pk-black-edition-panoacclmv360cameranl-auto1eig/3201907/?store={store_code}</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/lynk-en-co/01/lynk-en-co-01-1-5-phev-261pk-black-edition-panoacclmv360cameranl-auto1eig/3201907/?store={store_code}</g:link>
-      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/178360769618201.JPG</g:image_link>
+      <g:description>45.822 km, 2022</g:description>
+      <link>https://www.gertvankeulen.nl/voorraad-occasions/lynk-en-co/01/lynk-en-co-01-1-5-phev-261pk-black-edition-panoacclmv360cameranl-auto1eig/3201907/?store=12823721</link>
+      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/lynk-en-co/01/lynk-en-co-01-1-5-phev-261pk-black-edition-panoacclmv360cameranl-auto1eig/3201907/?store=12823721</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/c_limit,h_800,w_1080/b_white,c_pad,g_north,h_1080,w_1080/c_scale,g_north_west,l_gertvankeulen_favicon_v2,w_90,x_40,y_40/c_fit,co_rgb:1a1a1a,g_north_west,l_text:Roboto_46_bold:LYNK%20EN%20CO%2001,w_960,x_60,y_824/c_fit,co_rgb:555555,g_north_west,l_text:Roboto_39:1.5%20PHEV%20261PK%20Black-Edition%20PANO,w_960,x_60,y_888/c_fit,co_rgb:555555,g_south_west,l_text:Roboto_41_bold:45.822%20km%252C%202022,w_500,x_60,y_45/co_rgb:f39200,g_south_east,l_text:Roboto_56_bold:%E2%82%AC%2025.850%252C-,x_60,y_45/q_80/v1783819146/gertvankeulen_meta_feed/3201907.jpg</g:image_link>
       <g:brand>Lynk En Co</g:brand>
       <g:model>01</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>25850 EUR</g:price>
+      <g:price>25850.00 EUR</g:price>
       <g:color>Blauw</g:color>
       <g:year>2022</g:year>
       <g:mileage>45822 km</g:mileage>
@@ -343,15 +359,15 @@
     <item>
       <g:id>3199333</g:id>
       <g:title>Opel Corsa 1.4 Automaat Color-Edition Sport Airco</g:title>
-      <g:description>144142 km, 2011</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/opel/corsa/opel-corsa-1-4-automaat-color-edition-sport-aircolmvnl-autogarantie/3199333/?store={store_code}</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/opel/corsa/opel-corsa-1-4-automaat-color-edition-sport-aircolmvnl-autogarantie/3199333/?store={store_code}</g:link>
-      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/178355996086201.JPG</g:image_link>
+      <g:description>144.142 km, 2011</g:description>
+      <link>https://www.gertvankeulen.nl/voorraad-occasions/opel/corsa/opel-corsa-1-4-automaat-color-edition-sport-aircolmvnl-autogarantie/3199333/?store=12823721</link>
+      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/opel/corsa/opel-corsa-1-4-automaat-color-edition-sport-aircolmvnl-autogarantie/3199333/?store=12823721</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/c_limit,h_800,w_1080/b_white,c_pad,g_north,h_1080,w_1080/c_scale,g_north_west,l_gertvankeulen_favicon_v2,w_90,x_40,y_40/c_fit,co_rgb:1a1a1a,g_north_west,l_text:Roboto_46_bold:OPEL%20CORSA,w_960,x_60,y_824/c_fit,co_rgb:555555,g_north_west,l_text:Roboto_39:1.4%20Automaat%20Color-Edition%20Sport%20Airco,w_960,x_60,y_888/c_fit,co_rgb:555555,g_south_west,l_text:Roboto_41_bold:144.142%20km%252C%202011,w_500,x_60,y_45/co_rgb:f39200,g_south_east,l_text:Roboto_56_bold:%E2%82%AC%206.700%252C-,x_60,y_45/q_80/v1782615417/gertvankeulen_meta_feed/3199333.jpg</g:image_link>
       <g:brand>Opel</g:brand>
       <g:model>Corsa</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>6700 EUR</g:price>
+      <g:price>6700.00 EUR</g:price>
       <g:color>Rood , -</g:color>
       <g:year>2011</g:year>
       <g:mileage>144142 km</g:mileage>
@@ -359,15 +375,15 @@
     <item>
       <g:id>3200782</g:id>
       <g:title>Peugeot 108 1.0 E-VTI Active 5-Deurs Bluetooth</g:title>
-      <g:description>116388 km, 2019</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/peugeot/108/peugeot-108-1-0-e-vti-active-5-deurs-bluetoothnl-auto1e-eig/3200782/?store={store_code}</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/peugeot/108/peugeot-108-1-0-e-vti-active-5-deurs-bluetoothnl-auto1e-eig/3200782/?store={store_code}</g:link>
-      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/178341699382601.JPG</g:image_link>
+      <g:description>116.388 km, 2019</g:description>
+      <link>https://www.gertvankeulen.nl/voorraad-occasions/peugeot/108/peugeot-108-1-0-e-vti-active-5-deurs-bluetoothnl-auto1e-eig/3200782/?store=12823721</link>
+      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/peugeot/108/peugeot-108-1-0-e-vti-active-5-deurs-bluetoothnl-auto1e-eig/3200782/?store=12823721</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/c_limit,h_800,w_1080/b_white,c_pad,g_north,h_1080,w_1080/c_scale,g_north_west,l_gertvankeulen_favicon_v2,w_90,x_40,y_40/c_fit,co_rgb:1a1a1a,g_north_west,l_text:Roboto_46_bold:PEUGEOT%20108,w_960,x_60,y_824/c_fit,co_rgb:555555,g_north_west,l_text:Roboto_39:1.0%20E-VTI%20Active%205-Deurs%20Bluetooth,w_960,x_60,y_888/c_fit,co_rgb:555555,g_south_west,l_text:Roboto_41_bold:116.388%20km%252C%202019,w_500,x_60,y_45/co_rgb:f39200,g_south_east,l_text:Roboto_56_bold:%E2%82%AC%208.400%252C-,x_60,y_45/q_80/v1783064517/gertvankeulen_meta_feed/3200782.jpg</g:image_link>
       <g:brand>Peugeot</g:brand>
       <g:model>108</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>8400 EUR</g:price>
+      <g:price>8400.00 EUR</g:price>
       <g:color>Blauw , Bleu calvi</g:color>
       <g:year>2019</g:year>
       <g:mileage>116388 km</g:mileage>
@@ -375,15 +391,15 @@
     <item>
       <g:id>3194699</g:id>
       <g:title>Peugeot 208 1.2 Allure PACK 5-Deurs NL-AUTO</g:title>
-      <g:description>42324 km, 2021</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/peugeot/208/peugeot-208-1-2-allure-pack-5-deurs-nl-auto1e-eig-cameralmvcarplay42-000-km/3194699/?store={store_code}</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/peugeot/208/peugeot-208-1-2-allure-pack-5-deurs-nl-auto1e-eig-cameralmvcarplay42-000-km/3194699/?store={store_code}</g:link>
-      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/178361929828501.JPG</g:image_link>
+      <g:description>42.324 km, 2021</g:description>
+      <link>https://www.gertvankeulen.nl/voorraad-occasions/peugeot/208/peugeot-208-1-2-allure-pack-5-deurs-nl-auto1e-eig-cameralmvcarplay42-000-km/3194699/?store=12823721</link>
+      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/peugeot/208/peugeot-208-1-2-allure-pack-5-deurs-nl-auto1e-eig-cameralmvcarplay42-000-km/3194699/?store=12823721</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/c_limit,h_800,w_1080/b_white,c_pad,g_north,h_1080,w_1080/c_scale,g_north_west,l_gertvankeulen_favicon_v2,w_90,x_40,y_40/c_fit,co_rgb:1a1a1a,g_north_west,l_text:Roboto_46_bold:PEUGEOT%20208,w_960,x_60,y_824/c_fit,co_rgb:555555,g_north_west,l_text:Roboto_39:1.2%20Allure%20PACK%205-Deurs%20NL-AUTO,w_960,x_60,y_888/c_fit,co_rgb:555555,g_south_west,l_text:Roboto_41_bold:42.324%20km%252C%202021,w_500,x_60,y_45/co_rgb:f39200,g_south_east,l_text:Roboto_56_bold:%E2%82%AC%2015.400%252C-,x_60,y_45/q_80/v1783819146/gertvankeulen_meta_feed/3194699.jpg</g:image_link>
       <g:brand>Peugeot</g:brand>
       <g:model>208</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>15400 EUR</g:price>
+      <g:price>15400.00 EUR</g:price>
       <g:color>Grijs , Gris platinum</g:color>
       <g:year>2021</g:year>
       <g:mileage>42324 km</g:mileage>
@@ -439,15 +455,15 @@
     <item>
       <g:id>3189952</g:id>
       <g:title>Seat Leon 1.5 TSI 150Pk FR Business Intense ACC Cruise</g:title>
-      <g:description>91355 km, 2021</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/seat/leon/seat-leon-1-5-tsi-150pk-fr-business-intense-acc-cruiseledcarplaylmvnl-auto/3189952/?store={store_code}</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/seat/leon/seat-leon-1-5-tsi-150pk-fr-business-intense-acc-cruiseledcarplaylmvnl-auto/3189952/?store={store_code}</g:link>
-      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/178363775070401.JPG</g:image_link>
+      <g:description>91.355 km, 2021</g:description>
+      <link>https://www.gertvankeulen.nl/voorraad-occasions/seat/leon/seat-leon-1-5-tsi-150pk-fr-business-intense-acc-cruiseledcarplaylmvnl-auto/3189952/?store=12823721</link>
+      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/seat/leon/seat-leon-1-5-tsi-150pk-fr-business-intense-acc-cruiseledcarplaylmvnl-auto/3189952/?store=12823721</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/c_limit,h_800,w_1080/b_white,c_pad,g_north,h_1080,w_1080/c_scale,g_north_west,l_gertvankeulen_favicon_v2,w_90,x_40,y_40/c_fit,co_rgb:1a1a1a,g_north_west,l_text:Roboto_46_bold:SEAT%20LEON,w_960,x_60,y_824/c_fit,co_rgb:555555,g_north_west,l_text:Roboto_39:1.5%20TSI%20150Pk%20FR%20Business%20Intense%20ACC%20Cruise,w_960,x_60,y_888/c_fit,co_rgb:555555,g_south_west,l_text:Roboto_41_bold:91.355%20km%252C%202021,w_500,x_60,y_45/co_rgb:f39200,g_south_east,l_text:Roboto_56_bold:%E2%82%AC%2019.850%252C-,x_60,y_45/q_80/v1782473578/gertvankeulen_meta_feed/3189952.jpg</g:image_link>
       <g:brand>Seat</g:brand>
       <g:model>Leon</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>20150 EUR</g:price>
+      <g:price>19850.00 EUR</g:price>
       <g:color>Grijs , Urban silver</g:color>
       <g:year>2021</g:year>
       <g:mileage>91355 km</g:mileage>
@@ -485,17 +501,33 @@
       <g:mileage>134042 km</g:mileage>
     </item>
     <item>
+      <g:id>3201785</g:id>
+      <g:title>Toyota Aygo 1.0 VVT-i X-PLAY Bitone 5-Deurs LMV</g:title>
+      <g:description>88.256 km, 2017</g:description>
+      <link>https://www.gertvankeulen.nl/voorraad-occasions/toyota/aygo/toyota-aygo-1-0-vvt-i-x-play-bitone-5-deurs-lmvcameranl-autocruise/3201785/?store=12823721</link>
+      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/toyota/aygo/toyota-aygo-1-0-vvt-i-x-play-bitone-5-deurs-lmvcameranl-autocruise/3201785/?store=12823721</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/c_limit,h_800,w_1080/b_white,c_pad,g_north,h_1080,w_1080/c_scale,g_north_west,l_gertvankeulen_favicon_v2,w_90,x_40,y_40/c_fit,co_rgb:1a1a1a,g_north_west,l_text:Roboto_46_bold:TOYOTA%20AYGO,w_960,x_60,y_824/c_fit,co_rgb:555555,g_north_west,l_text:Roboto_39:1.0%20VVT-i%20X-PLAY%20Bitone%205-Deurs%20LMV,w_960,x_60,y_888/c_fit,co_rgb:555555,g_south_west,l_text:Roboto_41_bold:88.256%20km%252C%202017,w_500,x_60,y_45/co_rgb:f39200,g_south_east,l_text:Roboto_56_bold:%E2%82%AC%208.850%252C-,x_60,y_45/q_80/v1783819146/gertvankeulen_meta_feed/3201785.jpg</g:image_link>
+      <g:brand>Toyota</g:brand>
+      <g:model>Aygo</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>8850.00 EUR</g:price>
+      <g:color>Wit , (068)</g:color>
+      <g:year>2017</g:year>
+      <g:mileage>88256 km</g:mileage>
+    </item>
+    <item>
       <g:id>3195023</g:id>
       <g:title>Volkswagen Golf Variant 1.5 TSI 150PK DSG Highline R-LINE ACC-Cruise</g:title>
-      <g:description>75453 km, 2021</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/volkswagen/golf/volkswagen-golf-variant-1-5-tsi-150pk-dsg-highline-r-line-acc-cruiseledcaplaynl-auto1e-eig/3195023/?store={store_code}</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/volkswagen/golf/volkswagen-golf-variant-1-5-tsi-150pk-dsg-highline-r-line-acc-cruiseledcaplaynl-auto1e-eig/3195023/?store={store_code}</g:link>
-      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/178356128817301.JPG</g:image_link>
+      <g:description>75.453 km, 2021</g:description>
+      <link>https://www.gertvankeulen.nl/voorraad-occasions/volkswagen/golf/volkswagen-golf-variant-1-5-tsi-150pk-dsg-highline-r-line-acc-cruiseledcaplaynl-auto1e-eig/3195023/?store=12823721</link>
+      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/volkswagen/golf/volkswagen-golf-variant-1-5-tsi-150pk-dsg-highline-r-line-acc-cruiseledcaplaynl-auto1e-eig/3195023/?store=12823721</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/c_limit,h_800,w_1080/b_white,c_pad,g_north,h_1080,w_1080/c_scale,g_north_west,l_gertvankeulen_favicon_v2,w_90,x_40,y_40/c_fit,co_rgb:1a1a1a,g_north_west,l_text:Roboto_46_bold:VOLKSWAGEN%20GOLF,w_960,x_60,y_824/c_fit,co_rgb:555555,g_north_west,l_text:Roboto_39:Variant%201.5%20TSI%20150PK%20DSG%20Highline%20R-LINE%20ACC-Cruise,w_960,x_60,y_888/c_fit,co_rgb:555555,g_south_west,l_text:Roboto_41_bold:75.453%20km%252C%202021,w_500,x_60,y_45/co_rgb:f39200,g_south_east,l_text:Roboto_56_bold:%E2%82%AC%2022.850%252C-,x_60,y_45/q_80/v1783819146/gertvankeulen_meta_feed/3195023.jpg</g:image_link>
       <g:brand>Volkswagen</g:brand>
       <g:model>Golf</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>22850 EUR</g:price>
+      <g:price>22850.00 EUR</g:price>
       <g:color>Blauw , Lapiz blue metallic</g:color>
       <g:year>2021</g:year>
       <g:mileage>75453 km</g:mileage>
