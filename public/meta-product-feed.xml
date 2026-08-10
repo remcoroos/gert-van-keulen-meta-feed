@@ -74,7 +74,7 @@
       <g:description>64038 km, 2024</g:description>
       <link>https://www.gertvankeulen.nl/voorraad-occasions/bmw/x3/bmw-x3-xdrive30e-business-edition-plus-1e-eig-nl-autofull-options/3204768/?store={store_code}</link>
       <g:link>https://www.gertvankeulen.nl/voorraad-occasions/bmw/x3/bmw-x3-xdrive30e-business-edition-plus-1e-eig-nl-autofull-options/3204768/?store={store_code}</g:link>
-      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/178614663831401.JPG</g:image_link>
+      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/178622694885701.JPG</g:image_link>
       <g:brand>Bmw</g:brand>
       <g:model>X3</g:model>
       <g:condition>used</g:condition>
@@ -490,7 +490,7 @@
       <g:description>47888 km, 2023</g:description>
       <link>https://www.gertvankeulen.nl/voorraad-occasions/seat/tarraco/seat-tarraco-1-5-tsi-150pk-fr-business-intense-ledcarplaytrekhaakurano-greynl-auto1e-eig/3204286/?store={store_code}</link>
       <g:link>https://www.gertvankeulen.nl/voorraad-occasions/seat/tarraco/seat-tarraco-1-5-tsi-150pk-fr-business-intense-ledcarplaytrekhaakurano-greynl-auto1e-eig/3204286/?store={store_code}</g:link>
-      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/178598840793901.JPG</g:image_link>
+      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/178623279198401.JPG</g:image_link>
       <g:brand>Seat</g:brand>
       <g:model>Tarraco</g:model>
       <g:condition>used</g:condition>
@@ -551,15 +551,15 @@
     <item>
       <g:id>3207778</g:id>
       <g:title>Toyota Iq 1.0 Vvti Aspiration 59.000KM!</g:title>
-      <g:description>59313 km, 2010</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/toyota/iq/toyota-iq-1-0-vvti-aspiration-59-000km-1e-eignl-autoairco/3207778/?store={store_code}</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/toyota/iq/toyota-iq-1-0-vvti-aspiration-59-000km-1e-eignl-autoairco/3207778/?store={store_code}</g:link>
-      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/178585206669401.JPG</g:image_link>
+      <g:description>59.313 km, 2010</g:description>
+      <link>https://www.gertvankeulen.nl/voorraad-occasions/toyota/iq/toyota-iq-1-0-vvti-aspiration-59-000km-1e-eignl-autoairco/3207778/?store=7437</link>
+      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/toyota/iq/toyota-iq-1-0-vvti-aspiration-59-000km-1e-eignl-autoairco/3207778/?store=7437</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/c_limit,h_800,w_1080/b_white,c_pad,g_north,h_1080,w_1080/c_scale,g_north_west,l_gertvankeulen_favicon_v2,w_90,x_40,y_40/c_fit,co_rgb:1a1a1a,g_north_west,l_text:Roboto_46_bold:TOYOTA%20IQ,w_960,x_60,y_824/c_fit,co_rgb:555555,g_north_west,l_text:Roboto_39:1.0%20Vvti%20Aspiration%2059.000KM!,w_960,x_60,y_888/c_fit,co_rgb:555555,g_south_west,l_text:Roboto_41_bold:59.313%20km%252C%202010,w_500,x_60,y_45/co_rgb:f39200,g_south_east,l_text:Roboto_56_bold:%E2%82%AC%206.850%252C-,x_60,y_45/q_80/v1785978787/gertvankeulen_meta_feed/3207778.jpg</g:image_link>
       <g:brand>Toyota</g:brand>
       <g:model>Iq</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>6850 EUR</g:price>
+      <g:price>6850.00 EUR</g:price>
       <g:color>Paars</g:color>
       <g:year>2010</g:year>
       <g:mileage>59313 km</g:mileage>
