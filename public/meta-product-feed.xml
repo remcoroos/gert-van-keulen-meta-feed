@@ -263,15 +263,15 @@
     <item>
       <g:id>3207998</g:id>
       <g:title>Lynk En Co 01 1.5 PANO</g:title>
-      <g:description>55.861 km, 2022</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/lynk-en-co/01/lynk-en-co-01-1-5-panoacclmv360cameranl-auto1eig/3207998/?store=7437</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/lynk-en-co/01/lynk-en-co-01-1-5-panoacclmv360cameranl-auto1eig/3207998/?store=7437</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/c_limit,h_800,w_1080/b_white,c_pad,g_north,h_1080,w_1080/c_scale,g_north_west,l_gertvankeulen_favicon_v2,w_90,x_40,y_40/c_fit,co_rgb:1a1a1a,g_north_west,l_text:Roboto_46_bold:LYNK%20EN%20CO%2001,w_960,x_60,y_824/c_fit,co_rgb:555555,g_north_west,l_text:Roboto_39:1.5%20PANO,w_960,x_60,y_888/c_fit,co_rgb:555555,g_south_west,l_text:Roboto_41_bold:55.861%20km%252C%202022,w_500,x_60,y_45/co_rgb:f39200,g_south_east,l_text:Roboto_56_bold:%E2%82%AC%2025.850%252C-,x_60,y_45/q_80/v1786067759/gertvankeulen_meta_feed/3207998.jpg</g:image_link>
+      <g:description>55861 km, 2022</g:description>
+      <link>https://www.gertvankeulen.nl/voorraad-occasions/lynk-en-co/01/lynk-en-co-01-1-5-panoacclmv360cameranl-auto1eig/3207998/?store={store_code}</link>
+      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/lynk-en-co/01/lynk-en-co-01-1-5-panoacclmv360cameranl-auto1eig/3207998/?store={store_code}</g:link>
+      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/178600602253801.JPG</g:image_link>
       <g:brand>Lynk En Co</g:brand>
       <g:model>01</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>25850.00 EUR</g:price>
+      <g:price>25850 EUR</g:price>
       <g:color>Zwart</g:color>
       <g:year>2022</g:year>
       <g:mileage>55861 km</g:mileage>
@@ -325,33 +325,17 @@
       <g:mileage>60170 km</g:mileage>
     </item>
     <item>
-      <g:id>3204985</g:id>
-      <g:title>Mercedes-Benz A-Klasse 250e AMG LINE Panodak</g:title>
-      <g:description>106215 km, 2021</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/mercedes-benz/a-klasse/mercedes-benz-a-klasse-250e-amg-line-panodaksportstoelenmbux-widescreenlednight-pakket/3204985/?store={store_code}</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/mercedes-benz/a-klasse/mercedes-benz-a-klasse-250e-amg-line-panodaksportstoelenmbux-widescreenlednight-pakket/3204985/?store={store_code}</g:link>
-      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/178549239139601.JPG</g:image_link>
-      <g:brand>Mercedes-Benz</g:brand>
-      <g:model>A-Klasse</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>24850 EUR</g:price>
-      <g:color>Blauw</g:color>
-      <g:year>2021</g:year>
-      <g:mileage>106215 km</g:mileage>
-    </item>
-    <item>
       <g:id>3189935</g:id>
       <g:title>Mini Mini SE Business Edition 33 Kwh LEER</g:title>
-      <g:description>56.869 km, 2022</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/mini/mini/mini-mini-se-business-edition-33-kwh-leersportst-led-nl-auto1e-eig-soh100/3189935/?store=7437</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/mini/mini/mini-mini-se-business-edition-33-kwh-leersportst-led-nl-auto1e-eig-soh100/3189935/?store=7437</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/c_limit,h_800,w_1080/b_white,c_pad,g_north,h_1080,w_1080/c_scale,g_north_west,l_gertvankeulen_favicon_v2,w_90,x_40,y_40/c_fit,co_rgb:1a1a1a,g_north_west,l_text:Roboto_46_bold:MINI%20MINI,w_960,x_60,y_824/c_fit,co_rgb:555555,g_north_west,l_text:Roboto_39:SE%20Business%20Edition%2033%20Kwh%20LEER,w_960,x_60,y_888/c_fit,co_rgb:555555,g_south_west,l_text:Roboto_41_bold:56.869%20km%252C%202022,w_500,x_60,y_45/co_rgb:f39200,g_south_east,l_text:Roboto_56_bold:%E2%82%AC%2018.950%252C-,x_60,y_45/q_80/v1784423806/gertvankeulen_meta_feed/3189935.jpg</g:image_link>
+      <g:description>56869 km, 2022</g:description>
+      <link>https://www.gertvankeulen.nl/voorraad-occasions/mini/mini/mini-mini-se-business-edition-33-kwh-leersportst-led-nl-auto1e-eig-soh100/3189935/?store={store_code}</link>
+      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/mini/mini/mini-mini-se-business-edition-33-kwh-leersportst-led-nl-auto1e-eig-soh100/3189935/?store={store_code}</g:link>
+      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/178558278635701.JPG</g:image_link>
       <g:brand>Mini</g:brand>
       <g:model>Mini</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>18950.00 EUR</g:price>
+      <g:price>18950 EUR</g:price>
       <g:color>Wit</g:color>
       <g:year>2022</g:year>
       <g:mileage>56869 km</g:mileage>
@@ -567,15 +551,15 @@
     <item>
       <g:id>3204285</g:id>
       <g:title>Volkswagen Golf 1.0 TSI LIFE NAVI</g:title>
-      <g:description>51337 km, 2023</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/volkswagen/golf/volkswagen-golf-1-0-tsi-life-naviledcarplayacc-cruisevirtual-dashnl-auto1e-eig/3204285/?store={store_code}</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/volkswagen/golf/volkswagen-golf-1-0-tsi-life-naviledcarplayacc-cruisevirtual-dashnl-auto1e-eig/3204285/?store={store_code}</g:link>
-      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/178593935684101.JPG</g:image_link>
+      <g:description>51.337 km, 2023</g:description>
+      <link>https://www.gertvankeulen.nl/voorraad-occasions/volkswagen/golf/volkswagen-golf-1-0-tsi-life-naviledcarplayacc-cruisevirtual-dashnl-auto1e-eig/3204285/?store=7437</link>
+      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/volkswagen/golf/volkswagen-golf-1-0-tsi-life-naviledcarplayacc-cruisevirtual-dashnl-auto1e-eig/3204285/?store=7437</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/c_limit,h_800,w_1080/b_white,c_pad,g_north,h_1080,w_1080/c_scale,g_north_west,l_gertvankeulen_favicon_v2,w_90,x_40,y_40/c_fit,co_rgb:1a1a1a,g_north_west,l_text:Roboto_46_bold:VOLKSWAGEN%20GOLF,w_960,x_60,y_824/c_fit,co_rgb:555555,g_north_west,l_text:Roboto_39:1.0%20TSI%20LIFE%20NAVI,w_960,x_60,y_888/c_fit,co_rgb:555555,g_south_west,l_text:Roboto_41_bold:51.337%20km%252C%202023,w_500,x_60,y_45/co_rgb:f39200,g_south_east,l_text:Roboto_56_bold:%E2%82%AC%2021.400%252C-,x_60,y_45/q_80/v1785633712/gertvankeulen_meta_feed/3204285.jpg</g:image_link>
       <g:brand>Volkswagen</g:brand>
       <g:model>Golf</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>21400 EUR</g:price>
+      <g:price>21400.00 EUR</g:price>
       <g:color>Grijs</g:color>
       <g:year>2023</g:year>
       <g:mileage>51337 km</g:mileage>
