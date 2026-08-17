@@ -37,22 +37,6 @@
       <g:mileage>75202 km</g:mileage>
     </item>
     <item>
-      <g:id>3202073</g:id>
-      <g:title>Audi Q4 E-Tron 40 Advanced Edition 77 Kwh NAVI</g:title>
-      <g:description>92324 km, 2023</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/audi/q4-e-tron/audi-q4-e-tron-40-advanced-edition-77-kwh-naviledtrekhaaknl-auto1e-eig-soh-96/3202073/?store={store_code}</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/audi/q4-e-tron/audi-q4-e-tron-40-advanced-edition-77-kwh-naviledtrekhaaknl-auto1e-eig-soh-96/3202073/?store={store_code}</g:link>
-      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/178595121165301.JPG</g:image_link>
-      <g:brand>Audi</g:brand>
-      <g:model>Q4 E-Tron</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>31850 EUR</g:price>
-      <g:color>Zwart</g:color>
-      <g:year>2023</g:year>
-      <g:mileage>92324 km</g:mileage>
-    </item>
-    <item>
       <g:id>3206589</g:id>
       <g:title>Bmw 1-Serie 118i Business Edition Plus M-Sport</g:title>
       <g:description>88.107 km, 2021</g:description>
@@ -211,22 +195,6 @@
       <g:color>Zwart</g:color>
       <g:year>2023</g:year>
       <g:mileage>52560 km</g:mileage>
-    </item>
-    <item>
-      <g:id>3207995</g:id>
-      <g:title>Lynk En Co 01 1.5 PANO</g:title>
-      <g:description>58125 km, 2022</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/lynk-en-co/01/lynk-en-co-01-1-5-panoacclmv360cameranl-auto1eig/3207995/?store={store_code}</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/lynk-en-co/01/lynk-en-co-01-1-5-panoacclmv360cameranl-auto1eig/3207995/?store={store_code}</g:link>
-      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/178663199752501.JPG</g:image_link>
-      <g:brand>Lynk En Co</g:brand>
-      <g:model>01</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>25850 EUR</g:price>
-      <g:color>Blauw</g:color>
-      <g:year>2022</g:year>
-      <g:mileage>58125 km</g:mileage>
     </item>
     <item>
       <g:id>3207998</g:id>
@@ -407,15 +375,15 @@
     <item>
       <g:id>3206624</g:id>
       <g:title>Seat Ateca 1.4 TSI 150Pk DSG Automaat Xcellence Sport</g:title>
-      <g:description>126621 km, 2017</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/seat/ateca/seat-ateca-1-4-tsi-150pk-dsg-automaat-xcellence-sportpanodakledtrekhaak1e-eig/3206624/?store={store_code}</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/seat/ateca/seat-ateca-1-4-tsi-150pk-dsg-automaat-xcellence-sportpanodakledtrekhaak1e-eig/3206624/?store={store_code}</g:link>
-      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/178666159919101.JPG</g:image_link>
+      <g:description>126.621 km, 2017</g:description>
+      <link>https://www.gertvankeulen.nl/voorraad-occasions/seat/ateca/seat-ateca-1-4-tsi-150pk-dsg-automaat-xcellence-sportpanodakledtrekhaak1e-eig/3206624/?store=7437</link>
+      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/seat/ateca/seat-ateca-1-4-tsi-150pk-dsg-automaat-xcellence-sportpanodakledtrekhaak1e-eig/3206624/?store=7437</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/c_limit,h_800,w_1080/b_white,c_pad,g_north,h_1080,w_1080/c_scale,g_north_west,l_gertvankeulen_favicon_v2,w_90,x_40,y_40/c_fit,co_rgb:1a1a1a,g_north_west,l_text:Roboto_46_bold:SEAT%20ATECA,w_960,x_60,y_824/c_fit,co_rgb:555555,g_north_west,l_text:Roboto_39:1.4%20TSI%20150Pk%20DSG%20Automaat%20Xcellence%20Sport,w_960,x_60,y_888/c_fit,co_rgb:555555,g_south_west,l_text:Roboto_41_bold:126.621%20km%252C%202017,w_500,x_60,y_45/co_rgb:f39200,g_south_east,l_text:Roboto_56_bold:%E2%82%AC%2018.850%252C-,x_60,y_45/q_80/v1785460971/gertvankeulen_meta_feed/3206624.jpg</g:image_link>
       <g:brand>Seat</g:brand>
       <g:model>Ateca</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>18850 EUR</g:price>
+      <g:price>18850.00 EUR</g:price>
       <g:color>Zwart</g:color>
       <g:year>2017</g:year>
       <g:mileage>126621 km</g:mileage>
@@ -455,15 +423,15 @@
     <item>
       <g:id>3199322</g:id>
       <g:title>Suzuki Alto 1.0 Celebration Easss 5-Deurs</g:title>
-      <g:description>121400 km, 2014</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/suzuki/alto/suzuki-alto-1-0-celebration-easss-5-deurslmvairconl-auto/3199322/?store={store_code}</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/suzuki/alto/suzuki-alto-1-0-celebration-easss-5-deurslmvairconl-auto/3199322/?store={store_code}</g:link>
-      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/178547957421101.JPG</g:image_link>
+      <g:description>121.400 km, 2014</g:description>
+      <link>https://www.gertvankeulen.nl/voorraad-occasions/suzuki/alto/suzuki-alto-1-0-celebration-easss-5-deurslmvairconl-auto/3199322/?store=7437</link>
+      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/suzuki/alto/suzuki-alto-1-0-celebration-easss-5-deurslmvairconl-auto/3199322/?store=7437</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/c_limit,h_800,w_1080/b_white,c_pad,g_north,h_1080,w_1080/c_scale,g_north_west,l_gertvankeulen_favicon_v2,w_90,x_40,y_40/c_fit,co_rgb:1a1a1a,g_north_west,l_text:Roboto_46_bold:SUZUKI%20ALTO,w_960,x_60,y_824/c_fit,co_rgb:555555,g_north_west,l_text:Roboto_39:1.0%20Celebration%20Easss%205-Deurs,w_960,x_60,y_888/c_fit,co_rgb:555555,g_south_west,l_text:Roboto_41_bold:121.400%20km%252C%202014,w_500,x_60,y_45/co_rgb:f39200,g_south_east,l_text:Roboto_56_bold:%E2%82%AC%205.400%252C-,x_60,y_45/q_80/v1784423806/gertvankeulen_meta_feed/3199322.jpg</g:image_link>
       <g:brand>Suzuki</g:brand>
       <g:model>Alto</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>5400 EUR</g:price>
+      <g:price>5400.00 EUR</g:price>
       <g:color>Blauw</g:color>
       <g:year>2014</g:year>
       <g:mileage>121400 km</g:mileage>
