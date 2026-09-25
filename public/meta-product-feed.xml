@@ -42,7 +42,7 @@
       <g:description>87092 km, 2022</g:description>
       <link>https://www.gertvankeulen.nl/voorraad-occasions/audi/q4-sportback-e-tron/audi-q4-sportback-e-tron-40-77-kwh-204pk-advanced-edition-sport-trekhaak1e-eignl-autosoh-96-1/3217877/?store={store_code}</link>
       <g:link>https://www.gertvankeulen.nl/voorraad-occasions/audi/q4-sportback-e-tron/audi-q4-sportback-e-tron-40-77-kwh-204pk-advanced-edition-sport-trekhaak1e-eignl-autosoh-96-1/3217877/?store={store_code}</g:link>
-      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/179005770022001.JPG</g:image_link>
+      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/179014017488701.JPG</g:image_link>
       <g:brand>Audi</g:brand>
       <g:model>Q4 Sportback E-Tron</g:model>
       <g:condition>used</g:condition>
@@ -85,22 +85,6 @@
       <g:mileage>64038 km</g:mileage>
     </item>
     <item>
-      <g:id>3189947</g:id>
-      <g:title>Ford Focus Wagon 1.0 Ecoboost Hybrid 125PK Connected ACC Cruise</g:title>
-      <g:description>67343 km, 2022</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/ford/focus/ford-focus-wagon-1-0-ecoboost-hybrid-125pk-connected-acc-cruisetrekhkcamera/3189947/?store={store_code}</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/ford/focus/ford-focus-wagon-1-0-ecoboost-hybrid-125pk-connected-acc-cruisetrekhkcamera/3189947/?store={store_code}</g:link>
-      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/178995167683101.JPG</g:image_link>
-      <g:brand>Ford</g:brand>
-      <g:model>Focus</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>17400 EUR</g:price>
-      <g:color>Blauw</g:color>
-      <g:year>2022</g:year>
-      <g:mileage>67343 km</g:mileage>
-    </item>
-    <item>
       <g:id>3194411</g:id>
       <g:title>Ford Puma 1.0 Ecoboost-Hybrid 125Pk Titanium 1E EIG. Carplay</g:title>
       <g:description>76.903 km, 2021</g:description>
@@ -115,6 +99,38 @@
       <g:color>Wit</g:color>
       <g:year>2021</g:year>
       <g:mileage>76903 km</g:mileage>
+    </item>
+    <item>
+      <g:id>3219032</g:id>
+      <g:title>Kia Ceed 1.0 T-Gdi Automaat Dynamicline Carplay</g:title>
+      <g:description>58877 km, 2021</g:description>
+      <link>https://www.gertvankeulen.nl/voorraad-occasions/kia/ceed/kia-ceed-1-0-t-gdi-automaat-dynamicline-carplayledlmvnl-auto1e-eig/3219032/?store={store_code}</link>
+      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/kia/ceed/kia-ceed-1-0-t-gdi-automaat-dynamicline-carplayledlmvnl-auto1e-eig/3219032/?store={store_code}</g:link>
+      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/179017914071801.JPG</g:image_link>
+      <g:brand>Kia</g:brand>
+      <g:model>Ceed</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>20850 EUR</g:price>
+      <g:color>Grijs</g:color>
+      <g:year>2021</g:year>
+      <g:mileage>58877 km</g:mileage>
+    </item>
+    <item>
+      <g:id>3219020</g:id>
+      <g:title>Kia Ceed 1.0 T-Gdi GT-LINE Panodak</g:title>
+      <g:description>88609 km, 2022</g:description>
+      <link>https://www.gertvankeulen.nl/voorraad-occasions/kia/ceed/kia-ceed-1-0-t-gdi-gt-line-panodakhalf-leercameralednl-auto1e-eig/3219020/?store={store_code}</link>
+      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/kia/ceed/kia-ceed-1-0-t-gdi-gt-line-panodakhalf-leercameralednl-auto1e-eig/3219020/?store={store_code}</g:link>
+      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/179017856459101.JPG</g:image_link>
+      <g:brand>Kia</g:brand>
+      <g:model>Ceed</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>21400 EUR</g:price>
+      <g:color>Groen</g:color>
+      <g:year>2022</g:year>
+      <g:mileage>88609 km</g:mileage>
     </item>
     <item>
       <g:id>3215471</g:id>
@@ -154,7 +170,7 @@
       <g:description>28255 km, 2025</g:description>
       <link>https://www.gertvankeulen.nl/voorraad-occasions/land-rover/range-rover-evoque/land-rover-range-rover-evoque-1-5-p270e-phev-awd-se-dynamic-edition-1e-eig-nl-autofull-options/3217883/?store={store_code}</link>
       <g:link>https://www.gertvankeulen.nl/voorraad-occasions/land-rover/range-rover-evoque/land-rover-range-rover-evoque-1-5-p270e-phev-awd-se-dynamic-edition-1e-eig-nl-autofull-options/3217883/?store={store_code}</g:link>
-      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/179005380177601.JPG</g:image_link>
+      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/179014448763601.JPG</g:image_link>
       <g:brand>Land Rover</g:brand>
       <g:model>Range Rover Evoque</g:model>
       <g:condition>used</g:condition>
@@ -183,15 +199,15 @@
     <item>
       <g:id>3207999</g:id>
       <g:title>Lynk En Co 01 1.5 PANO</g:title>
-      <g:description>54.912 km, 2022</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/lynk-en-co/01/lynk-en-co-01-1-5-panoacclmv360cameranl-auto1eig/3207999/?store=7437</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/lynk-en-co/01/lynk-en-co-01-1-5-panoacclmv360cameranl-auto1eig/3207999/?store=7437</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/c_limit,h_800,w_1080/b_white,c_pad,g_north,h_1080,w_1080/c_scale,g_north_west,l_gertvankeulen_favicon_v2,w_90,x_40,y_40/c_fit,co_rgb:1a1a1a,g_north_west,l_text:Roboto_46_bold:LYNK%20EN%20CO%2001,w_960,x_60,y_824/c_fit,co_rgb:555555,g_north_west,l_text:Roboto_39:1.5%20PANO,w_960,x_60,y_888/c_fit,co_rgb:555555,g_south_west,l_text:Roboto_41_bold:54.912%20km%252C%202022,w_500,x_60,y_45/co_rgb:f39200,g_south_east,l_text:Roboto_56_bold:%E2%82%AC%2025.850%252C-,x_60,y_45/q_80/v1788744380/gertvankeulen_meta_feed/3207999.jpg</g:image_link>
+      <g:description>54912 km, 2022</g:description>
+      <link>https://www.gertvankeulen.nl/voorraad-occasions/lynk-en-co/01/lynk-en-co-01-1-5-panoacclmv360cameranl-auto1eig/3207999/?store={store_code}</link>
+      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/lynk-en-co/01/lynk-en-co-01-1-5-panoacclmv360cameranl-auto1eig/3207999/?store={store_code}</g:link>
+      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/179013245051501.JPG</g:image_link>
       <g:brand>Lynk En Co</g:brand>
       <g:model>01</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>25850.00 EUR</g:price>
+      <g:price>25850 EUR</g:price>
       <g:color>Zwart</g:color>
       <g:year>2022</g:year>
       <g:mileage>54912 km</g:mileage>
@@ -282,7 +298,7 @@
       <g:description>129829 km, 2021</g:description>
       <link>https://www.gertvankeulen.nl/voorraad-occasions/renault/captur/renault-captur-1-0-tce-90-intens-two-tonecarplaycameralednl-auto1e-eig/3217879/?store={store_code}</link>
       <g:link>https://www.gertvankeulen.nl/voorraad-occasions/renault/captur/renault-captur-1-0-tce-90-intens-two-tonecarplaycameralednl-auto1e-eig/3217879/?store={store_code}</g:link>
-      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/179005662016001.JPG</g:image_link>
+      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/179013808736001.JPG</g:image_link>
       <g:brand>Renault</g:brand>
       <g:model>Captur</g:model>
       <g:condition>used</g:condition>
@@ -293,17 +309,33 @@
       <g:mileage>129829 km</g:mileage>
     </item>
     <item>
-      <g:id>3216032</g:id>
-      <g:title>Renault Captur Tce 90 Limited Carplay</g:title>
-      <g:description>63406 km, 2019</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/renault/captur/renault-captur-tce-90-limited-carplaycruiseledlmvnl-auto1e-eig-63-000-km/3216032/?store={store_code}</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/renault/captur/renault-captur-tce-90-limited-carplaycruiseledlmvnl-auto1e-eig-63-000-km/3216032/?store={store_code}</g:link>
-      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/178965132988501.JPG</g:image_link>
+      <g:id>3215667</g:id>
+      <g:title>Renault Captur Tce 90 Intens 2-TONE</g:title>
+      <g:description>68.555 km, 2017</g:description>
+      <link>https://www.gertvankeulen.nl/voorraad-occasions/renault/captur/renault-captur-tce-90-intens-2-toneledcameratrekhaaknl-auto68-000-km/3215667/?store=7437</link>
+      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/renault/captur/renault-captur-tce-90-intens-2-toneledcameratrekhaaknl-auto68-000-km/3215667/?store=7437</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/c_limit,h_800,w_1080/b_white,c_pad,g_north,h_1080,w_1080/c_scale,g_north_west,l_gertvankeulen_favicon_v2,w_90,x_40,y_40/c_fit,co_rgb:1a1a1a,g_north_west,l_text:Roboto_46_bold:RENAULT%20CAPTUR,w_960,x_60,y_824/c_fit,co_rgb:555555,g_north_west,l_text:Roboto_39:Tce%2090%20Intens%202-TONE,w_960,x_60,y_888/c_fit,co_rgb:555555,g_south_west,l_text:Roboto_41_bold:68.555%20km%252C%202017,w_500,x_60,y_45/co_rgb:f39200,g_south_east,l_text:Roboto_56_bold:%E2%82%AC%2010.700%252C-,x_60,y_45/q_80/v1790301833/gertvankeulen_meta_feed/3215667.jpg</g:image_link>
       <g:brand>Renault</g:brand>
       <g:model>Captur</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>12700 EUR</g:price>
+      <g:price>10700.00 EUR</g:price>
+      <g:color>Oranje</g:color>
+      <g:year>2017</g:year>
+      <g:mileage>68555 km</g:mileage>
+    </item>
+    <item>
+      <g:id>3216032</g:id>
+      <g:title>Renault Captur Tce 90 Limited Carplay</g:title>
+      <g:description>63.406 km, 2019</g:description>
+      <link>https://www.gertvankeulen.nl/voorraad-occasions/renault/captur/renault-captur-tce-90-limited-carplaycruiseledlmvnl-auto1e-eig-63-000-km/3216032/?store=7437</link>
+      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/renault/captur/renault-captur-tce-90-limited-carplaycruiseledlmvnl-auto1e-eig-63-000-km/3216032/?store=7437</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/c_limit,h_800,w_1080/b_white,c_pad,g_north,h_1080,w_1080/c_scale,g_north_west,l_gertvankeulen_favicon_v2,w_90,x_40,y_40/c_fit,co_rgb:1a1a1a,g_north_west,l_text:Roboto_46_bold:RENAULT%20CAPTUR,w_960,x_60,y_824/c_fit,co_rgb:555555,g_north_west,l_text:Roboto_39:Tce%2090%20Limited%20Carplay,w_960,x_60,y_888/c_fit,co_rgb:555555,g_south_west,l_text:Roboto_41_bold:63.406%20km%252C%202019,w_500,x_60,y_45/co_rgb:f39200,g_south_east,l_text:Roboto_56_bold:%E2%82%AC%2012.700%252C-,x_60,y_45/q_80/v1789782513/gertvankeulen_meta_feed/3216032.jpg</g:image_link>
+      <g:brand>Renault</g:brand>
+      <g:model>Captur</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>12700.00 EUR</g:price>
       <g:color>Blauw</g:color>
       <g:year>2019</g:year>
       <g:mileage>63406 km</g:mileage>
@@ -362,12 +394,12 @@
       <g:description>127601 km, 2017</g:description>
       <link>https://www.gertvankeulen.nl/voorraad-occasions/seat/ateca/seat-ateca-1-4-tsi-150pk-dsg-automaat-xcellence-sportpanodakledacc-cruisetrekhaak/3206624/?store={store_code}</link>
       <g:link>https://www.gertvankeulen.nl/voorraad-occasions/seat/ateca/seat-ateca-1-4-tsi-150pk-dsg-automaat-xcellence-sportpanodakledacc-cruisetrekhaak/3206624/?store={store_code}</g:link>
-      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/178933965711501.JPG</g:image_link>
+      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/179017787460901.JPG</g:image_link>
       <g:brand>Seat</g:brand>
       <g:model>Ateca</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>18850 EUR</g:price>
+      <g:price>17850 EUR</g:price>
       <g:color>Zwart</g:color>
       <g:year>2017</g:year>
       <g:mileage>127601 km</g:mileage>
