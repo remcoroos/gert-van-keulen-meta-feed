@@ -92,13 +92,13 @@
   {
     "id": "3219020",
     "title": "Kia Ceed 1.0 T-Gdi GT-LINE Panodak",
-    "description": "88.609 km, 2022",
-    "link": "https://www.gertvankeulen.nl/voorraad-occasions/kia/ceed/kia-ceed-1-0-t-gdi-gt-line-panodakhalf-leercameralednl-auto1e-eig/3219020/?store=7437",
-    "image": "https://res.cloudinary.com/dbcf66fsf/image/upload/c_limit,h_800,w_1080/b_white,c_pad,g_north,h_1080,w_1080/c_scale,g_north_west,l_gertvankeulen_favicon_v2,w_90,x_40,y_40/c_fit,co_rgb:1a1a1a,g_north_west,l_text:Roboto_46_bold:KIA%20CEED,w_960,x_60,y_824/c_fit,co_rgb:555555,g_north_west,l_text:Roboto_39:1.0%20T-Gdi%20GT-LINE%20Panodak,w_960,x_60,y_888/c_fit,co_rgb:555555,g_south_west,l_text:Roboto_41_bold:88.609%20km%252C%202022,w_500,x_60,y_45/co_rgb:f39200,g_south_east,l_text:Roboto_56_bold:%E2%82%AC%2021.400%252C-,x_60,y_45/q_80/v1790474516/gertvankeulen_meta_feed/3219020.jpg",
+    "description": "88609 km, 2022",
+    "link": "https://www.gertvankeulen.nl/voorraad-occasions/kia/ceed/kia-ceed-1-0-t-gdi-gt-line-panodakhalf-leercameralednl-auto1e-eig/3219020/?store={store_code}",
+    "image": "https://pics.auto-commerce.eu/ac0215/foto/179031698411201.JPG",
     "brand": "Kia",
     "model": "Ceed",
     "condition": "used",
-    "price": "21400.00 EUR",
+    "price": "21400 EUR",
     "color": "Groen",
     "year": "2022",
     "mileage": "88609 km",
@@ -270,6 +270,21 @@
     "isPlaceholder": false
   },
   {
+    "id": "3220648",
+    "title": "Renault Arkana 1.6 E-Tech Hybrid 145 Intens NL-AUTO",
+    "description": "88642 km, 2022",
+    "link": "https://www.gertvankeulen.nl/voorraad-occasions/renault/arkana/renault-arkana-1-6-e-tech-hybrid-145-intens-nl-auto1e-eig/3220648/?store={store_code}",
+    "image": "https://pics.auto-commerce.eu/ac0215/foto/179068283872201.JPG",
+    "brand": "Renault",
+    "model": "Arkana",
+    "condition": "used",
+    "price": "18400 EUR",
+    "color": "Zwart",
+    "year": "2022",
+    "mileage": "88642 km",
+    "isPlaceholder": false
+  },
+  {
     "id": "3217879",
     "title": "Renault Captur 1.0 Tce 90 Intens TWO-TONE",
     "description": "129.829 km, 2021",
@@ -282,21 +297,6 @@
     "color": "Oranje",
     "year": "2021",
     "mileage": "129829 km",
-    "isPlaceholder": false
-  },
-  {
-    "id": "3215667",
-    "title": "Renault Captur Tce 90 Intens 2-TONE",
-    "description": "68555 km, 2017",
-    "link": "https://www.gertvankeulen.nl/voorraad-occasions/renault/captur/renault-captur-tce-90-intens-2-toneledcameratrekhaaknl-auto68-000-km/3215667/?store={store_code}",
-    "image": "https://pics.auto-commerce.eu/ac0215/foto/179017775896101.JPG",
-    "brand": "Renault",
-    "model": "Captur",
-    "condition": "used",
-    "price": "10700 EUR",
-    "color": "Oranje",
-    "year": "2017",
-    "mileage": "68555 km",
     "isPlaceholder": false
   },
   {
@@ -390,21 +390,6 @@
     "isPlaceholder": false
   },
   {
-    "id": "3219023",
-    "title": "Skoda Kamiq 1.0 TSI Ambition Carplay",
-    "description": "48556 km, 2021",
-    "link": "https://www.gertvankeulen.nl/voorraad-occasions/skoda/kamiq/skoda-kamiq-1-0-tsi-ambition-carplaycruiseledlmvtrekhaaknl-auto1e-eig/3219023/?store={store_code}",
-    "image": "https://pics.auto-commerce.eu/ac0215/foto/179030093957501.JPG",
-    "brand": "Skoda",
-    "model": "Kamiq",
-    "condition": "used",
-    "price": "18400 EUR",
-    "color": "Grijs",
-    "year": "2021",
-    "mileage": "48556 km",
-    "isPlaceholder": false
-  },
-  {
     "id": "3212251",
     "title": "Toyota Iq 1.0 Vvti Aspiration Airco",
     "description": "59.313 km, 2010",
@@ -432,6 +417,21 @@
     "color": "Grijs",
     "year": "2023",
     "mileage": "51337 km",
+    "isPlaceholder": false
+  },
+  {
+    "id": "3220932",
+    "title": "Volvo V60 T6 AWD Plug-In Hybrid Core T6 AWD Plugin Hybrid LONG Range 19 Kwh CORE Bright Trekhaak",
+    "description": "68514 km, 2023",
+    "link": "https://www.gertvankeulen.nl/voorraad-occasions/volvo/v60/volvo-v60-t6-awd-plug-in-hybrid-core-t6-awd-plugin-hybrid-long-range-19-kwh-core-bright-trekhaak68-000-km-soh-96/3220932/?store={store_code}",
+    "image": "https://pics.auto-commerce.eu/ac0215/foto/179069597624901.JPG",
+    "brand": "Volvo",
+    "model": "V60",
+    "condition": "used",
+    "price": "33850 EUR",
+    "color": "Overig",
+    "year": "2023",
+    "mileage": "68514 km",
     "isPlaceholder": false
   }
 ]
