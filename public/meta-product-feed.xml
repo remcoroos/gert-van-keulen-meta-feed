@@ -5,22 +5,6 @@
     <description>Geoptimaliseerde feed voor Autobedrijf Gert van Keulen (Facebook/Instagram Ads)</description>
     <link>https://www.gertvankeulen.nl</link>
     <item>
-      <g:id>3201762</g:id>
-      <g:title>Audi A1 Sportback 1.0 TFSI S-LINE Sport 5-Deurs</g:title>
-      <g:description>121625 km, 2018</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/audi/a1/audi-a1-sportback-1-0-tfsi-s-line-sport-5-deursnavi2-tonenl-auto/3201762/?store={store_code}</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/audi/a1/audi-a1-sportback-1-0-tfsi-s-line-sport-5-deursnavi2-tonenl-auto/3201762/?store={store_code}</g:link>
-      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/179146289397001.JPG</g:image_link>
-      <g:brand>Audi</g:brand>
-      <g:model>A1</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>11850 EUR</g:price>
-      <g:color>Rood</g:color>
-      <g:year>2018</g:year>
-      <g:mileage>121625 km</g:mileage>
-    </item>
-    <item>
       <g:id>3206589</g:id>
       <g:title>Bmw 1-Serie 118i Business Edition Plus M-Sport</g:title>
       <g:description>88.107 km, 2021</g:description>
@@ -405,12 +389,12 @@
       <g:mileage>129829 km</g:mileage>
     </item>
     <item>
-      <g:id>3220645</g:id>
+      <g:id>3225751</g:id>
       <g:title>Renault Captur Tce 90 Dynamique R-LINK</g:title>
       <g:description>127.514 km, 2016</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/renault/captur/renault-captur-tce-90-dynamique-r-link2-tonecameralmvnl-auto/3220645/?store=7437</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/renault/captur/renault-captur-tce-90-dynamique-r-link2-tonecameralmvnl-auto/3220645/?store=7437</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/c_limit,h_800,w_1080/b_white,c_pad,g_north,h_1080,w_1080/c_scale,g_north_west,l_gertvankeulen_favicon_v2,w_90,x_40,y_40/c_fit,co_rgb:1a1a1a,g_north_west,l_text:Roboto_46_bold:RENAULT%20CAPTUR,w_960,x_60,y_824/c_fit,co_rgb:555555,g_north_west,l_text:Roboto_39:Tce%2090%20Dynamique%20R-LINK,w_960,x_60,y_888/c_fit,co_rgb:555555,g_south_west,l_text:Roboto_41_bold:127.514%20km%252C%202016,w_500,x_60,y_45/co_rgb:f39200,g_south_east,l_text:Roboto_56_bold:%E2%82%AC%208.400%252C-,x_60,y_45/q_80/v1792287676/gertvankeulen_meta_feed/3220645.jpg</g:image_link>
+      <link>https://www.gertvankeulen.nl/voorraad-occasions/renault/captur/renault-captur-tce-90-dynamique-r-link2-tonecameralmvnl-auto/3225751/?store=7437</link>
+      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/renault/captur/renault-captur-tce-90-dynamique-r-link2-tonecameralmvnl-auto/3225751/?store=7437</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/c_limit,h_800,w_1080/b_white,c_pad,g_north,h_1080,w_1080/c_scale,g_north_west,l_gertvankeulen_favicon_v2,w_90,x_40,y_40/c_fit,co_rgb:1a1a1a,g_north_west,l_text:Roboto_46_bold:RENAULT%20CAPTUR,w_960,x_60,y_824/c_fit,co_rgb:555555,g_north_west,l_text:Roboto_39:Tce%2090%20Dynamique%20R-LINK,w_960,x_60,y_888/c_fit,co_rgb:555555,g_south_west,l_text:Roboto_41_bold:127.514%20km%252C%202016,w_500,x_60,y_45/co_rgb:f39200,g_south_east,l_text:Roboto_56_bold:%E2%82%AC%208.400%252C-,x_60,y_45/q_80/v1792375122/gertvankeulen_meta_feed/3225751.jpg</g:image_link>
       <g:brand>Renault</g:brand>
       <g:model>Captur</g:model>
       <g:condition>used</g:condition>
@@ -439,15 +423,15 @@
     <item>
       <g:id>3225099</g:id>
       <g:title>Renault Clio 0.9 Tce Dynamique Sport NL-AUTO</g:title>
-      <g:description>164027 km, 2012</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/renault/clio/renault-clio-0-9-tce-dynamique-sport-nl-autolmvpdcgarantie/3225099/?store={store_code}</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/renault/clio/renault-clio-0-9-tce-dynamique-sport-nl-autolmvpdcgarantie/3225099/?store={store_code}</g:link>
-      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/179198951042901.JPG</g:image_link>
+      <g:description>164.027 km, 2012</g:description>
+      <link>https://www.gertvankeulen.nl/voorraad-occasions/renault/clio/renault-clio-0-9-tce-dynamique-sport-nl-autolmvpdcgarantie/3225099/?store=7437</link>
+      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/renault/clio/renault-clio-0-9-tce-dynamique-sport-nl-autolmvpdcgarantie/3225099/?store=7437</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/c_limit,h_800,w_1080/b_white,c_pad,g_north,h_1080,w_1080/c_scale,g_north_west,l_gertvankeulen_favicon_v2,w_90,x_40,y_40/c_fit,co_rgb:1a1a1a,g_north_west,l_text:Roboto_46_bold:RENAULT%20CLIO,w_960,x_60,y_824/c_fit,co_rgb:555555,g_north_west,l_text:Roboto_39:0.9%20Tce%20Dynamique%20Sport%20NL-AUTO,w_960,x_60,y_888/c_fit,co_rgb:555555,g_south_west,l_text:Roboto_41_bold:164.027%20km%252C%202012,w_500,x_60,y_45/co_rgb:f39200,g_south_east,l_text:Roboto_56_bold:%E2%82%AC%205.850%252C-,x_60,y_45/q_80/v1792375122/gertvankeulen_meta_feed/3225099.jpg</g:image_link>
       <g:brand>Renault</g:brand>
       <g:model>Clio</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>5850 EUR</g:price>
+      <g:price>5850.00 EUR</g:price>
       <g:color>Rood</g:color>
       <g:year>2012</g:year>
       <g:mileage>164027 km</g:mileage>
@@ -483,38 +467,6 @@
       <g:color>Grijs</g:color>
       <g:year>2021</g:year>
       <g:mileage>68249 km</g:mileage>
-    </item>
-    <item>
-      <g:id>3194696</g:id>
-      <g:title>Seat Arona 1.0 TSI Style Business Intense 2-TONE</g:title>
-      <g:description>59230 km, 2021</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/seat/arona/seat-arona-1-0-tsi-style-business-intense-2-toneledcarplayacc-cruisecameranl-auto1e-eig/3194696/?store={store_code}</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/seat/arona/seat-arona-1-0-tsi-style-business-intense-2-toneledcarplayacc-cruisecameranl-auto1e-eig/3194696/?store={store_code}</g:link>
-      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/179155445168201.JPG</g:image_link>
-      <g:brand>Seat</g:brand>
-      <g:model>Arona</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>16250 EUR</g:price>
-      <g:color>Wit</g:color>
-      <g:year>2021</g:year>
-      <g:mileage>59230 km</g:mileage>
-    </item>
-    <item>
-      <g:id>3212251</g:id>
-      <g:title>Toyota Iq 1.0 Vvti Aspiration Airco</g:title>
-      <g:description>59313 km, 2010</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/toyota/iq/toyota-iq-1-0-vvti-aspiration-airco1e-eig-nl-auto59-000-km/3212251/?store={store_code}</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/toyota/iq/toyota-iq-1-0-vvti-aspiration-airco1e-eig-nl-auto59-000-km/3212251/?store={store_code}</g:link>
-      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/179130869175601.JPG</g:image_link>
-      <g:brand>Toyota</g:brand>
-      <g:model>Iq</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>5500 EUR</g:price>
-      <g:color>Paars</g:color>
-      <g:year>2010</g:year>
-      <g:mileage>59313 km</g:mileage>
     </item>
     <item>
       <g:id>3220048</g:id>
