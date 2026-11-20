@@ -56,12 +56,12 @@
       <g:id>3232524</g:id>
       <g:title>Fiat 600E Abarth Scorpionissima 54 Kwh 280PK</g:title>
       <g:description>75 km, 2026</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/fiat/600e/fiat-600e-abarth-scorpionissima-54-kwh-280pkperformance-stoelen20nieuwe-auto/3232524/?store=7437</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/fiat/600e/fiat-600e-abarth-scorpionissima-54-kwh-280pkperformance-stoelen20nieuwe-auto/3232524/?store=7437</g:link>
+      <link>https://www.gertvankeulen.nl/voorraad-occasions/fiat/600e/fiat-600e-abarth-scorpionissima-54-kwh-280pkperformance-stoelen20nieuw/3232524/?store=7437</link>
+      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/fiat/600e/fiat-600e-abarth-scorpionissima-54-kwh-280pkperformance-stoelen20nieuw/3232524/?store=7437</g:link>
       <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/c_limit,h_800,w_1080/b_white,c_pad,g_north,h_1080,w_1080/c_scale,g_north_west,l_gertvankeulen_favicon_v2,w_90,x_40,y_40/c_fit,co_rgb:1a1a1a,g_north_west,l_text:Roboto_46_bold:FIAT%20600E,w_960,x_60,y_824/c_fit,co_rgb:555555,g_north_west,l_text:Roboto_39:Abarth%20Scorpionissima%2054%20Kwh%20280PK,w_960,x_60,y_888/c_fit,co_rgb:555555,g_south_west,l_text:Roboto_41_bold:75%20km%252C%202026,w_500,x_60,y_45/co_rgb:f39200,g_south_east,l_text:Roboto_56_bold:%E2%82%AC%2038.850%252C-,x_60,y_45/q_80/v1794799324/gertvankeulen_meta_feed/3232524.jpg</g:image_link>
       <g:brand>Fiat</g:brand>
       <g:model>600E</g:model>
-      <g:condition>new</g:condition>
+      <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
       <g:price>38850.00 EUR</g:price>
       <g:color>Overig</g:color>
@@ -119,15 +119,15 @@
     <item>
       <g:id>3233515</g:id>
       <g:title>Kia Ceed 1.0 T-Gdi GT-LINE NL-AUTO</g:title>
-      <g:description>88.609 km, 2022</g:description>
-      <link>https://www.gertvankeulen.nl/voorraad-occasions/kia/ceed/kia-ceed-1-0-t-gdi-gt-line-nl-auto1e-eig-panodakhalf-leercameraled/3233515/?store=7437</link>
-      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/kia/ceed/kia-ceed-1-0-t-gdi-gt-line-nl-auto1e-eig-panodakhalf-leercameraled/3233515/?store=7437</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/c_limit,h_800,w_1080/b_white,c_pad,g_north,h_1080,w_1080/c_scale,g_north_west,l_gertvankeulen_favicon_v2,w_90,x_40,y_40/c_fit,co_rgb:1a1a1a,g_north_west,l_text:Roboto_46_bold:KIA%20CEED,w_960,x_60,y_824/c_fit,co_rgb:555555,g_north_west,l_text:Roboto_39:1.0%20T-Gdi%20GT-LINE%20NL-AUTO,w_960,x_60,y_888/c_fit,co_rgb:555555,g_south_west,l_text:Roboto_41_bold:88.609%20km%252C%202022,w_500,x_60,y_45/co_rgb:f39200,g_south_east,l_text:Roboto_56_bold:%E2%82%AC%2020.850%252C-,x_60,y_45/q_80/v1794977380/gertvankeulen_meta_feed/3233515.jpg</g:image_link>
+      <g:description>88609 km, 2022</g:description>
+      <link>https://www.gertvankeulen.nl/voorraad-occasions/kia/ceed/kia-ceed-1-0-t-gdi-gt-line-nl-auto1e-eig-panodakhalf-leercameraled/3233515/?store={store_code}</link>
+      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/kia/ceed/kia-ceed-1-0-t-gdi-gt-line-nl-auto1e-eig-panodakhalf-leercameraled/3233515/?store={store_code}</g:link>
+      <g:image_link>https://pics.auto-commerce.eu/ac0215/foto/179491299877201.JPG</g:image_link>
       <g:brand>Kia</g:brand>
       <g:model>Ceed</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>20850.00 EUR</g:price>
+      <g:price>20850 EUR</g:price>
       <g:color>Groen</g:color>
       <g:year>2022</g:year>
       <g:mileage>88609 km</g:mileage>
@@ -355,6 +355,22 @@
       <g:color>Zwart</g:color>
       <g:year>2024</g:year>
       <g:mileage>64356 km</g:mileage>
+    </item>
+    <item>
+      <g:id>3233992</g:id>
+      <g:title>Opel Karl 1.0 Ecoflex Edition 5-Deurs</g:title>
+      <g:description>76.808 km, 2018</g:description>
+      <link>https://www.gertvankeulen.nl/voorraad-occasions/opel/karl/opel-karl-1-0-ecoflex-edition-5-deursaircocruisenl-auto/3233992/?store=7437</link>
+      <g:link>https://www.gertvankeulen.nl/voorraad-occasions/opel/karl/opel-karl-1-0-ecoflex-edition-5-deursaircocruisenl-auto/3233992/?store=7437</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/c_limit,h_800,w_1080/b_white,c_pad,g_north,h_1080,w_1080/c_scale,g_north_west,l_gertvankeulen_favicon_v2,w_90,x_40,y_40/c_fit,co_rgb:1a1a1a,g_north_west,l_text:Roboto_46_bold:OPEL%20KARL,w_960,x_60,y_824/c_fit,co_rgb:555555,g_north_west,l_text:Roboto_39:1.0%20Ecoflex%20Edition%205-Deurs,w_960,x_60,y_888/c_fit,co_rgb:555555,g_south_west,l_text:Roboto_41_bold:76.808%20km%252C%202018,w_500,x_60,y_45/co_rgb:f39200,g_south_east,l_text:Roboto_56_bold:%E2%82%AC%208.400%252C-,x_60,y_45/q_80/v1795149059/gertvankeulen_meta_feed/3233992.jpg</g:image_link>
+      <g:brand>Opel</g:brand>
+      <g:model>Karl</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>8400.00 EUR</g:price>
+      <g:color>Zwart</g:color>
+      <g:year>2018</g:year>
+      <g:mileage>76808 km</g:mileage>
     </item>
     <item>
       <g:id>3233522</g:id>
